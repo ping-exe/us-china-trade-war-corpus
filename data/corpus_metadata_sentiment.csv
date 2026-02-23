@@ -1,0 +1,570 @@
+article_id,source_normalized,date_normalized,headline,byline,section,word_count,period,pysentimiento_label,pysentimiento_pos,pysentimiento_neg,pysentimiento_neu,vader_compound,vader_pos,vader_neg,vader_neu
+P1_NYT_0001,The New York Times,2017-04-02,March Figures for New Car Sales and Hiring Are on the Way,THE NEW YORK TIMES,,791,P1,NEU,0.0338,0.0031,0.9631,0.98,0.09,0.06,0.851
+P1_WP_0002,The Washington Post,2017-04-03,"China 's leader to bring 'tweetable' pledges, experts say",,,196,P1,NEU,0.0405,0.0032,0.9563,0.9985,0.138,0.02,0.842
+P1_NYT_0003,The New York Times,2017-04-03,Trump Is Wimping Out on Trade,PAUL KRUGMAN,,883,P1,NEU,0.0284,0.0127,0.9589,-0.8555,0.086,0.095,0.82
+P1_NYT_0005,The New York Times,2017-04-03,"Kushner, Duties Expanding, Visits Iraq",MAGGIE HABERMAN,,266,P1,NEU,0.0166,0.0058,0.9776,0.0,0.0,0.0,1.0
+P1_NYT_0007,The New York Times,2017-04-03,China  Recognizes Kushner as Path to the President,MARK LANDLER; Adam Goldman contributed reporting.,,697,P1,NEU,0.0429,0.0033,0.9538,0.9938,0.096,0.043,0.861
+P1_WP_0008,The Washington Post,2017-04-03,Trump is making a huge mistake by giving VIP treatment to  China,Ely Ratner,,780,P1,NEG,0.0058,0.6742,0.32,0.7456,0.181,0.05,0.769
+P1_NYT_0009,The New York Times,2017-04-03,Trade After the Trans-Pacific Partnership,HERALDO MUÑOZ,,22,P1,NEU,0.0266,0.0042,0.9692,0.9991,0.178,0.031,0.79
+P1_WP_0011,The Washington Post,2017-04-03,What those papers Trump left on his desk reveal about his  trade policy,Max Ehrenfreund,,424,P1,NEU,0.0184,0.0066,0.9749,0.6389,0.055,0.045,0.9
+P1_FT_0012,Financial Times,2017-04-03,The imperious presidency; FT BIG READ: US POLITICS,"Lionel Barber, Demetri Sevastopulo and Gillian Tett",,71,P1,NEU,0.0232,0.0053,0.9715,0.9912,0.124,0.083,0.793
+P1_PBS_0013,PBS NewsHour,2017-04-03,"PBS NewsHour for April 3, 2017",,,109,P1,NEU,0.0224,0.0044,0.9732,-0.9982,0.064,0.142,0.794
+P1_WSJ_0014,The Wall Street Journal,2017-04-03,REVIEW & OUTLOOK (Editorial),,,726,P1,NEU,0.0112,0.0123,0.9765,-0.0772,0.055,0.062,0.883
+P1_WSJ_0015,The Wall Street Journal,2017-04-03,Markets Review & Outlook: First Quarter --- Bargain-Hunting Investors Pile Into Emerging Markets,Ira Iosebashvili,,714,P1,NEU,0.0135,0.0087,0.9778,0.9894,0.108,0.059,0.833
+P1_WSJ_0016,The Wall Street Journal,2017-04-03,Markets Brush Off U.S. Trade Fears,Riva Gold and Georgi Kantchev,,904,P1,NEU,0.0145,0.0383,0.9472,0.1213,0.048,0.046,0.905
+P1_WSJ_0017,The Wall Street Journal,2017-04-03,U.S. News: Trump Willing to Act on North Korea,Ben Kesling and Peter Nicholas,,508,P1,NEU,0.1508,0.0024,0.8468,-0.9518,0.056,0.084,0.861
+P1_WSJ_0018,The Wall Street Journal,2017-04-03,"U.S. companies are trying to stop employees from raiding their 401(k) plans, warning of the impact on their retirement goals.",,,195,P1,NEU,0.0173,0.0958,0.887,0.9274,0.137,0.074,0.789
+P5_NYT_0019,The New York Times,2026-02-02,"Text|(tariff OR tariffs OR ""trade war"" OR ""trade policy"") AND (China OR Chinese OR Beijing)|",,,67,P5,NEU,0.0132,0.0098,0.977,-0.5994,0.0,0.039,0.961
+P1_NYT_0020,The New York Times,2017-08-09,"In Chilling Nuclear Terms, Trump Warns North Korea","PETER BAKER and CHOE SANG-HUN; Peter Baker reported from Bridgewater, and Choe Sang-Hun from Seoul, South Korea. Reporting was contributed by David E. Sanger from Alaska, Jane Perlez from Beijing, Rick Gladstone from New York and Thomas Kaplan from Washington.",,755,P1,NEU,0.0242,0.0056,0.9702,-0.9836,0.073,0.112,0.815
+P1_NYT_0021,The New York Times,2017-08-09,Beneath Markets’ Calm Are Signs of Growing Investor Caution,LANDON THOMAS Jr.,,967,P1,NEU,0.0446,0.028,0.9274,-0.6974,0.088,0.095,0.817
+P1_WP_0022,The Washington Post,2017-08-09,"The Daily 202: No, Donald Trump's base is not 'far bigger and stronger than ever before' ; But his approval ratings are still higher among partisans than President Obama's at their lowest.",James Hohmann,,627,P1,NEU,0.1877,0.0161,0.7962,0.9962,0.14,0.075,0.785
+P1_WP_0024,The Washington Post,2017-12-15,How Trump can win the GOP's great war of ideas,Christopher Buskirk,,833,P1,NEU,0.0273,0.014,0.9587,0.6124,0.165,0.082,0.753
+P1_NYT_0025,The New York Times,2017-12-15,South Korean Leader Seeks 'New Start' With  China  in Bid to End  Trade War,JANE PERLEZ,,966,P1,NEU,0.0647,0.0028,0.9324,0.9974,0.141,0.066,0.792
+P1_WP_0027,The Washington Post,2017-02-05,Ford begins exporting F-150s to  China,,,177,P1,NEU,0.2673,0.0023,0.7304,0.9897,0.088,0.046,0.866
+P1_WP_0028,The Washington Post,2017-02-05,The politics of globaloney,,,540,P1,NEU,0.0208,0.0898,0.8895,0.9847,0.089,0.053,0.858
+P1_NYT_0029,The New York Times,2017-02-05,Sunday Review Desk; SECTSR,JONATHAN STEVENSON,,362,P1,NEU,0.0111,0.022,0.9669,-0.9739,0.081,0.101,0.818
+P1_WP_0031,The Washington Post,2018-02-17,Commerce recommends metals  tariffs,,,86,P1,NEU,0.0204,0.0142,0.9654,0.993,0.121,0.064,0.815
+P1_FT_0032,Financial Times,2018-02-17,Trump set to impose tough  tariffs  on steel and aluminium,,,422,P1,NEU,0.0254,0.0203,0.9543,-0.4019,0.0,0.093,0.907
+P1_WSJ_0033,The Wall Street Journal,2018-02-17,"World News: Aluminum Prices, Steel Shares Rise",Amrith Ramkumar,,141,P1,NEU,0.0681,0.004,0.9279,0.296,0.053,0.0,0.947
+P1_NYT_0035,The New York Times,2018-01-26,Forum Lauds Climate Efforts by  China  Even as Its Emissions Climb,"KEITH BRADSHER and LISA FRIEDMAN; Keith Bradsher reported from Davos, and Lisa Friedman from Washington. Ailin Tang contributed research.",,255,P1,POS,0.5028,0.0028,0.4944,0.995,0.098,0.035,0.867
+P1_NYT_0036,The New York Times,2018-01-26,Business/Financial Desk; SECT,,,234,P1,NEU,0.1658,0.0023,0.832,0.9617,0.072,0.043,0.885
+P1_NYT_0037,The New York Times,2018-01-26,"For Britain, Brexit Spells Diminished Stature",PETER S. GOODMAN,,15,P1,NEU,0.0181,0.0092,0.9727,0.9964,0.109,0.031,0.86
+P1_WP_0038,The Washington Post,2018-01-26,China  casts a long shadow over Trump and Davos,Ishaan Tharoor,,68,P1,NEU,0.0372,0.0048,0.958,0.9859,0.083,0.033,0.883
+P1_WP_0039,The Washington Post,2018-01-26,"Trump's high-risk reversal of 70 years of trade progress ; With heavy  tariffs  on washing machines and solar panels, Trump puts us on a well-traveled road from trade barriers to international conflict",Roger Lowenstein,,249,P1,NEU,0.0133,0.4089,0.5778,-0.6319,0.071,0.065,0.864
+P1_WP_0040,The Washington Post,2018-01-26,"U.S. trade panel strikes down 300 percent  tariffs  on Canadian jets, dealing a blow to Boeing",Aaron Gregg,,56,P1,NEU,0.031,0.0199,0.9491,-0.8419,0.1,0.109,0.791
+P1_WP_0041,The Washington Post,2018-01-26,When a  tariff  barks and bites,,,268,P1,NEU,0.0097,0.0178,0.9725,0.0,0.0,0.0,1.0
+P1_NYT_0042,The New York Times,2018-01-26,Trump Arrived in Davos as a Party Wrecker. He Leaves Praised as a Pragmatist.,PETER S. GOODMAN and KEITH BRADSHER,,309,P1,NEU,0.0177,0.0437,0.9386,0.9972,0.15,0.079,0.771
+P1_NYT_0043,The New York Times,2018-01-26,"Trump, in Davos Speech, Sticks to Script as He Declares America Open for Business",THE NEW YORK TIMES,,656,P1,NEU,0.3644,0.0027,0.6329,0.9967,0.131,0.059,0.81
+P1_NYT_0044,The New York Times,2018-01-26,Wynn Resorts Slides on Report of Sexual Misconduct by C.E.O: DealBook Briefing,,,737,P1,NEU,0.026,0.006,0.968,0.9314,0.101,0.095,0.804
+P1_NYT_0045,The New York Times,2018-01-26,A Sober Trump Reassures the Davos Elite,PETER BAKER,,496,P1,NEU,0.0517,0.0033,0.945,-0.9539,0.092,0.103,0.805
+P1_FT_0046,Financial Times,2018-01-26,Bond investors sound alarm over rising inflation,,,856,P1,NEU,0.0152,0.0636,0.9212,-0.7501,0.086,0.089,0.825
+P1_FT_0047,Financial Times,2018-01-26,Traders sense a green light to sell the dollar,,,752,P1,NEU,0.0192,0.0234,0.9574,0.9883,0.117,0.075,0.807
+P1_FT_0048,Financial Times,2018-01-26,South Korea hits back over Trump  tariffs,,,410,P1,NEU,0.0148,0.0157,0.9695,0.0,0.0,0.0,1.0
+P1_FT_0049,Financial Times,2018-01-26,EU attacks US  trade war  talk as 'irresponsible',,,682,P1,NEU,0.0105,0.1944,0.7951,-0.9364,0.06,0.081,0.859
+P1_NYT_0050,The New York Times,2018-01-26,When the Stranger Who Calls Is the American President,Antony J. Blinken,,995,P1,NEU,0.0239,0.005,0.9711,0.8451,0.106,0.092,0.803
+P1_WSJ_0051,The Wall Street Journal,2018-01-26,World Economic Forum: A Warning To Heed U.S. Trade Criticisms,Greg Ip,,286,P1,NEU,0.0082,0.0628,0.929,-0.5106,0.0,0.095,0.905
+P1_NYT_0053,The New York Times,2017-07-17,U.S. and  Chinese  Executives to Meet on Nations’ Economic Relations,KATE KELLY,,862,P1,NEU,0.0253,0.0044,0.9703,0.9935,0.091,0.026,0.883
+P1_WP_0054,The Washington Post,2017-07-18,Smoke and mirrors from Trump on jobs,,,833,P1,NEU,0.0079,0.0565,0.9356,0.9583,0.101,0.078,0.821
+P1_NYT_0055,The New York Times,2017-07-18,U.S. Trade Deficit Is Priority In Proposed Nafta Overhaul,ALAN RAPPEPORT,,806,P1,NEU,0.0335,0.005,0.9615,0.9811,0.091,0.049,0.86
+P1_WP_0056,The Washington Post,2017-07-18,"Sean Spicer's utterly clueless off-camera press briefing, annotated ; The White House press secretary punted on basic questions and acted like he hadn't followed news about Donald Trump Jr.",Callum Borchers,,528,P1,NEG,0.008,0.6947,0.2973,0.9862,0.072,0.028,0.9
+P1_WP_0057,The Washington Post,2017-07-18,Trump administration unveils goals in renegotiating NAFTA,Ana Swanson,,920,P1,NEU,0.1157,0.0027,0.8815,0.9971,0.144,0.052,0.804
+P1_WP_0058,The Washington Post,2017-07-18,Another dumb Trump idea bites the dust,Jennifer Rubin,,608,P1,NEG,0.0049,0.8816,0.1135,-0.5106,0.0,0.086,0.914
+P1_WP_0059,The Washington Post,2017-07-18,"China  vows to step up air, sea patrols after U.S. warship sails near disputed island",Simon Denyer;Thomas Gibbons-Neff,,321,P1,NEU,0.0228,0.0055,0.9717,0.8382,0.095,0.089,0.816
+P1_WP_0060,The Washington Post,2017-07-18,Here's what Canada and Mexico will hate about Trump's NAFTA plans ; Four goals stand out.,Ana Swanson,,95,P1,NEU,0.0163,0.0517,0.9321,0.9865,0.1,0.065,0.836
+P1_WP_0061,The Washington Post,2017-07-18,"The Daily 202: After Senate bill falls apart, Republicans don't have the votes to repeal Obamacare ; McConnell's new gambit unlikely to work.",James Hohmann,,77,P1,NEG,0.007,0.571,0.4221,-0.9797,0.077,0.105,0.818
+P1_WP_0063,The Washington Post,2017-06-06,The Finance 202: Why Trump's populist agenda is in retreat ; The BAT has flatlined.,Tory Newmyer,,790,P1,NEU,0.0178,0.0325,0.9497,0.9866,0.108,0.07,0.822
+P1_WP_0065,The Washington Post,2017-03-12,The winning argument Democrats have against the president,,,881,P1,NEU,0.0094,0.0761,0.9145,0.9929,0.142,0.096,0.762
+P1_WP_0066,The Washington Post,2017-03-12,in case you missed itSome reports that you may have missed. Read more at washingtonpost.com.,,,242,P1,NEU,0.019,0.0101,0.971,-0.7256,0.083,0.1,0.817
+P1_WP_0067,The Washington Post,2017-03-12,"Robots aren't killing the American Dream. Neither is trade. This is the problem. ; ""Good"" jobs are being shifted from the interior to the coasts. So what should the U.S. do now?",Sarah Bauerle Danzman;Jeff D. Colgan,,322,P1,NEU,0.0147,0.1842,0.8011,0.7499,0.091,0.082,0.827
+P1_WP_0069,The Washington Post,2018-03-17,"At G-20, Mnuchin tasked with selling Trump's agenda",,,661,P1,NEU,0.0163,0.0146,0.9691,0.5668,0.078,0.073,0.849
+P1_NYT_0070,The New York Times,2018-03-17,A Feeding Frenzy Over Exemptions From U.S.  Tariffs,ANA SWANSON and KENNETH P. VOGEL,,768,P1,NEU,0.0111,0.0139,0.975,0.9917,0.097,0.044,0.858
+P1_NYT_0071,The New York Times,2018-03-17,Mr. Trump Blocks a Bad Merger,THE EDITORIAL BOARD,,732,P1,NEU,0.0149,0.0503,0.9348,-0.6597,0.0,0.112,0.888
+P1_WP_0072,The Washington Post,2018-03-17,"China 's Xi gets right-hand man, loyal 'firefighter,' elected vice president",Simon Denyer,,768,P1,NEU,0.1977,0.0025,0.7997,0.9945,0.118,0.059,0.823
+P1_NYT_0073,The New York Times,2018-03-16,"China ’s Xi Starts New Term, With Trusted Deputy to Deal With Trump",Chris Buckley,,331,P1,NEU,0.0479,0.0031,0.949,0.9975,0.117,0.032,0.85
+P1_FT_0074,Financial Times,2018-03-17,"Indeed, the main equity indices were on course to register weekly declines, reflecting persistent concerns about the possibility of a global trade war and the risks emanating from increasingly protectionist US policies.",,,887,P1,NEU,0.0356,0.0367,0.9277,0.8901,0.04,0.021,0.939
+P1_FT_0075,Financial Times,2018-03-17,Sam Fleming ; CourtneyWeaver,,,596,P1,NEU,0.0218,0.0063,0.9719,-0.9856,0.068,0.1,0.832
+P1_FT_0076,Financial Times,2018-03-17,Digital protectionism and national security,,,595,P1,NEU,0.0153,0.0112,0.9735,0.34,0.074,0.0,0.926
+P1_FT_0077,Financial Times,2018-03-17,Tale of woe for Tan and his Qualcomm dream,,,771,P1,NEU,0.0156,0.0261,0.9583,0.9501,0.074,0.054,0.872
+P1_FT_0079,Financial Times,2018-03-17,Tech tax deepens EU-US trade rift,,,377,P1,NEU,0.0162,0.013,0.9707,0.0,0.0,0.0,1.0
+P1_WSJ_0080,The Wall Street Journal,2018-03-17,"U.S. News: Targeting  China , Trump Could Hit Big U.S. Export",Josh Mitchell and Melissa Korn,,760,P1,NEU,0.0189,0.0207,0.9604,-0.8502,0.025,0.047,0.928
+P1_WSJ_0081,The Wall Street Journal,2018-03-17,Boeing Leaves Dow Without Leader,Chelsey Dulaney,,395,P1,NEU,0.013,0.0214,0.9657,0.0,0.0,0.0,1.0
+P1_WSJ_0082,The Wall Street Journal,2018-03-17,U.S. News: Trump Advisers Have Close Ties To Steel Industry,Nick Timiraos and Rebecca Ballhaus,,807,P1,NEU,0.0207,0.0059,0.9733,0.9752,0.07,0.039,0.891
+P1_WP_0085,The Washington Post,2017-05-15,Selling globalization short,,,834,P1,NEG,0.003,0.8651,0.1319,-0.9824,0.075,0.108,0.817
+P1_WP_0086,The Washington Post,2017-05-15,Trump's  China  trade deal is artless,Editorial Board,,549,P1,NEU,0.0091,0.1155,0.8754,0.0,0.0,0.0,1.0
+P1_FT_0087,Financial Times,2017-05-15,Doubts grow over 'Herculean' US- China  trade agreement; 'Early harvest',Shawn Donnan in Washington,,691,P1,NEU,0.0091,0.0876,0.9034,0.9833,0.111,0.072,0.817
+P1_WSJ_0088,The Wall Street Journal,2017-05-15,The Trump Trade Team's Vocabulary Problem,Chad P. Bown and Alan O. Sykes,,793,P1,NEU,0.0119,0.0211,0.967,0.9927,0.096,0.042,0.862
+P1_WSJ_0089,The Wall Street Journal,2017-05-15,U.S. News --- THE OUTLOOK: TPP Points Way Toward Other Deals,Bob Davis,,744,P1,NEU,0.0314,0.0036,0.9651,0.9973,0.134,0.05,0.816
+P1_FT_0091,Financial Times,2017-11-23,South Korea's solar industry recovers its glow,,,786,P1,NEU,0.1946,0.0024,0.803,0.9906,0.094,0.051,0.855
+P1_FT_0092,Financial Times,2017-11-23,Trump's unwitting surrender to  China 's AI ambition,,,815,P1,NEU,0.0141,0.0442,0.9417,-0.8314,0.069,0.075,0.856
+P1_FT_0095,Financial Times,2017-11-23,Editorial; Opinion Columns,,,817,P1,NEU,0.0112,0.0478,0.941,0.0,0.0,0.0,1.0
+P1_NYT_0098,The New York Times,2017-10-12,"For Dignity and Development, East Africa Curbs Used Clothes Imports",KIMIKO de FREYTAS-TAMURA,,873,P1,NEU,0.014,0.0194,0.9666,0.9346,0.124,0.107,0.77
+P1_NYT_0099,The New York Times,2017-10-12,What Would Happen if the U.S. Withdrew From Nafta,ANA SWANSON and KEVIN GRANVILLE,,187,P1,NEU,0.0147,0.0108,0.9746,0.997,0.121,0.042,0.837
+P1_NYT_0100,The New York Times,2017-10-11,"‘In Spite of It All, America’",,,274,P1,NEU,0.0163,0.0076,0.9761,0.9865,0.109,0.05,0.842
+P1_WSJ_0101,The Wall Street Journal,2017-10-12,Beijing is pushing some of China's biggest tech firms to offer the state a stake in them and a direct role in corporate decisions.,,,227,P1,NEU,0.0107,0.0757,0.9136,-0.296,0.054,0.059,0.887
+P1_FOX_0103,Fox News,2017-09-20,"Before Wisconsin, Foxconn Vowed Big Spending in Brazil. Few Jobs Have Come.",DAVID BARBOZA,,568,P1,NEU,0.0165,0.0325,0.951,0.9925,0.085,0.029,0.887
+P1_WP_0104,The Washington Post,2017-09-20,Winning the Amazon sweepstakes will give one city a big boost — if it happens the right way,Margaret O’Mara,,313,P1,POS,0.613,0.0025,0.3845,0.9897,0.09,0.024,0.886
+P1_FT_0105,Financial Times,2017-09-20,This is the euro's big moment to become the go-to currency,Didier Saint-Georges,,789,P1,NEU,0.2726,0.0027,0.7247,0.996,0.132,0.063,0.804
+P2_NYT_0107,The New York Times,2019-04-18,"Donald Trump,  China  Savior? Some  Chinese  Say Yes",Li Yuan,,354,P2,NEU,0.0235,0.0255,0.951,0.982,0.12,0.084,0.795
+P2_WP_0108,The Washington Post,2019-04-18,U.S. trade boosted by aircraft exports,,,610,P2,NEU,0.0883,0.0175,0.8942,0.9498,0.094,0.064,0.843
+P2_WP_0109,The Washington Post,2019-04-18,Fears about a 2020 recession abate in a boost for Trump's reelection hopes,,,19,P2,NEU,0.1745,0.0102,0.8152,0.9859,0.107,0.074,0.818
+P2_WP_0110,The Washington Post,2019-04-18,China 's economy keeps churning - with help,,,639,P2,NEU,0.1279,0.0081,0.864,0.9967,0.147,0.056,0.797
+P2_NYT_0111,The New York Times,2019-04-18,Truth in Labeling: Trump Finds Allies Across Aisle,ANNIE KARNI,,819,P2,NEU,0.0719,0.0033,0.9248,-0.977,0.09,0.115,0.795
+P2_NYT_0113,The New York Times,2019-04-18,DealBook Briefing: Business Heads Back to Saudi Arabia,,,148,P2,NEU,0.0266,0.0054,0.968,0.989,0.107,0.066,0.827
+P2_NYT_0114,The New York Times,2019-04-18,U.S. Scholar Who Advises Trump Says  China  Blocked His Visa Application,Edward Wong and Chris Buckley,,121,P2,NEU,0.0099,0.024,0.9662,-0.1513,0.067,0.068,0.865
+P2_NYT_0115,The New York Times,2019-04-18,North Korea’s Latest Weapons Test: Short in Range but Long in Message,Choe Sang-Hun,,412,P2,NEU,0.0162,0.0059,0.978,-0.9506,0.07,0.087,0.843
+P2_NYT_0116,The New York Times,2019-04-18,"Trump’s Nafta Revisions Offer Modest Economic Benefits, Report Finds",Ana Swanson,,357,P2,NEU,0.1003,0.0034,0.8963,0.9951,0.109,0.026,0.865
+P2_FT_0117,Financial Times,2019-04-18,China  focuses on construction and private sector to counter slowest growth in 30 years,,,769,P2,NEU,0.0348,0.0146,0.9506,0.7975,0.11,0.101,0.789
+P2_NYT_0118,The New York Times,2019-04-18,A Market-Driven Green New Deal? We’d Be Unstoppable,Amory B. Lovins and Rushad R. Nanavatty,,247,P2,NEU,0.2108,0.0027,0.7866,0.9972,0.138,0.041,0.821
+P2_WSJ_0119,The Wall Street Journal,2019-04-18,"U.S. News: U.S.,  China  Show Economic Vigor in Data",Harriet Torry,,351,P2,NEU,0.0699,0.0028,0.9274,0.2732,0.049,0.0,0.951
+P2_WSJ_0120,The Wall Street Journal,2019-04-18,Stock Pullback Intensifies for Health Insurers,Amrith Ramkumar,,618,P2,NEU,0.0152,0.081,0.9037,0.0,0.0,0.0,1.0
+P2_WP_0122,The Washington Post,2018-04-22,And so Mr. Abe was back at Mar-a-Lago,,,557,P2,NEU,0.0184,0.0105,0.9711,0.8017,0.102,0.086,0.812
+P2_NYT_0123,The New York Times,2018-04-22,Money and Business/Financial Desk; SECTBU,NEIL IRWIN,,295,P2,NEU,0.0228,0.0067,0.9706,-0.9939,0.107,0.144,0.75
+P2_NYT_0124,The New York Times,2018-04-22,Asia and Australia Edition,Louis Lucero II,,394,P2,NEU,0.0192,0.0048,0.976,-0.9985,0.048,0.145,0.807
+P2_NYT_0125,The New York Times,2018-04-22,"China , Feeling Left Out, Has Plenty to Worry About in North Korea-U.S. Talks",Jane Perlez,,472,P2,NEU,0.0109,0.0432,0.9458,-0.9884,0.073,0.108,0.819
+P2_NYT_0126,The New York Times,2018-04-22,Tariff  Dodgers Stand to Profit Off U.S.- China  Trade Dispute,Keith Bradsher,,403,P2,NEU,0.0193,0.0338,0.9469,0.9731,0.11,0.082,0.808
+P2_NYT_0128,The New York Times,2019-08-10,‘Weaponized’ Currency and Mining Limits:  China ’s Responses to Trump Take Shape,Alexandra Stevenson,,222,P2,NEU,0.009,0.1271,0.8639,0.9389,0.104,0.085,0.811
+P2_NYT_0129,The New York Times,2019-08-10,China ’s Theory for Hong Kong Protests: Secret American Meddling,Andrew Higgins,,233,P2,NEU,0.0132,0.0077,0.9791,-0.9792,0.055,0.087,0.858
+P2_NYT_0130,The New York Times,2019-08-10,China  Tries to Teach Trump Economics,Paul Krugman,,981,P2,NEU,0.0109,0.26,0.7291,-0.9914,0.084,0.117,0.798
+P2_NYT_0131,The New York Times,2019-08-10,"Help for the Economy? Despite Grumbling, Trump Has Had Plenty","Jim Tankersley, Jeanna Smialek and Ben Casselman",,625,P2,NEU,0.0817,0.005,0.9133,-0.8969,0.096,0.105,0.8
+P2_WP_0132,The Washington Post,2019-08-10,Trade worries push figures down to 2016 level,,,771,P2,NEG,0.0084,0.5498,0.4418,0.7635,0.055,0.049,0.896
+P2_WP_0133,The Washington Post,2019-08-10,Trump wants a big interest rate cut to weaken the dollar,,,51,P2,NEU,0.059,0.0692,0.8717,-0.9929,0.073,0.125,0.802
+P2_WP_0134,The Washington Post,2019-08-10,How U.S. consumers are affected,,,341,P2,NEU,0.009,0.0382,0.9528,0.2808,0.071,0.042,0.887
+P2_NYT_0135,The New York Times,2019-08-10,A 'Poker Game' With  China,,,192,P2,NEU,0.019,0.0049,0.9761,0.0,0.0,0.0,1.0
+P2_NYT_0136,The New York Times,2019-08-10,"Re ''Stop Blocking Gun Safety Research'' (editorial, Aug. 8):",,,420,P2,NEG,0.0033,0.8554,0.1413,-0.2901,0.101,0.106,0.793
+P2_NYT_0138,The New York Times,2019-08-10,Democrats’ 2020 Problem: How to Be Tougher on Trade Than Trump,Ana Swanson,,827,P2,NEU,0.0123,0.0731,0.9147,0.9914,0.117,0.072,0.811
+P2_WP_0139,The Washington Post,2019-08-10,Trump's economy was on fire two years ago. But voters have a short memory.,David Von Drehle,,886,P2,NEU,0.0108,0.1523,0.8368,0.9939,0.111,0.068,0.821
+P2_WP_0140,The Washington Post,2019-08-10,The administration said it was moving these agencies for efficiency. Now the truth comes out.,Editorial Board,,489,P2,NEU,0.024,0.0176,0.9583,0.5859,0.103,0.0,0.897
+P2_FT_0142,Financial Times,2019-08-10,Investors must weigh the risk of rising inflation,,,828,P2,NEU,0.013,0.019,0.968,0.9869,0.1,0.061,0.84
+P2_FT_0143,Financial Times,2019-08-10,Equity and high-yield funds jolted by trade fears,,,474,P2,NEU,0.0107,0.2273,0.762,-0.4215,0.0,0.069,0.931
+P2_FT_0144,Financial Times,2019-08-10,The cost of American unpredictability,,,717,P2,NEU,0.009,0.0371,0.9538,-0.9806,0.083,0.112,0.804
+P2_FT_0145,Financial Times,2019-08-10,China  chief is HSBC's second high-profile departure in days,,,326,P2,NEU,0.0137,0.022,0.9643,0.0,0.0,0.0,1.0
+P2_FT_0146,Financial Times,2019-08-10,US retailers 'at war' with suppliers over price increases,,,922,P2,NEU,0.0099,0.0309,0.9592,0.8059,0.065,0.057,0.878
+P2_FT_0147,Financial Times,2019-08-10,Only a brutal shock can break the cycle of  tariffs  turmoil,,,806,P2,NEU,0.0312,0.0294,0.9394,-0.8751,0.113,0.116,0.771
+P2_FT_0148,Financial Times,2019-08-10,Lessons from Venice in the age of mass tourism,,,611,P2,NEU,0.0399,0.0039,0.9562,0.0,0.0,0.0,1.0
+P2_FT_0149,Financial Times,2019-08-10,Reading the tea leaves amid market turmoil,,,633,P2,NEU,0.0144,0.0089,0.9766,-0.3612,0.0,0.072,0.928
+P2_FT_0150,Financial Times,2019-08-10,Currency wars have no winners,,,866,P2,NEU,0.0097,0.0919,0.8983,-0.4481,0.137,0.13,0.733
+P2_FT_0151,Financial Times,2019-08-10,"Wall Street took a turn lower after Donald Trump told reporters that the US was ""not ready to make a deal"" with China, adding that the abandoning of September trade talks would be ""fine"".",,,459,P2,NEG,0.0075,0.588,0.4045,-0.979,0.04,0.108,0.852
+P2_FT_0152,Financial Times,2019-08-10,China  factory gate prices drop amid trade tensions with US,,,317,P2,NEU,0.009,0.3347,0.6562,-0.5859,0.0,0.115,0.885
+P2_FT_0154,Financial Times,2019-08-10,Albemarle unveils 'strategic pivot' after lithium price fall,,,323,P2,NEU,0.0204,0.0377,0.9419,0.0,0.0,0.0,1.0
+P2_WSJ_0155,The Wall Street Journal,2019-08-10,EXCHANGE --- Markets: Trade Battle Is Crimping Global Oil Demand,David Hodari,,577,P2,NEU,0.008,0.1973,0.7947,-0.9936,0.046,0.134,0.821
+P2_WSJ_0156,The Wall Street Journal,2019-08-10,EXCHANGE --- Markets -- Credit Markets: Treasurys Prices Fall Amid Volatility,Daniel Kruger,,351,P2,NEU,0.0102,0.1828,0.8069,0.3818,0.057,0.0,0.943
+P2_WSJ_0157,The Wall Street Journal,2019-08-10,EXCHANGE --- Heard on the Street: Overheard,,,213,P2,NEU,0.0159,0.0063,0.9779,0.0,0.0,0.0,1.0
+P2_WSJ_0158,The Wall Street Journal,2019-08-10,World News: Japan Shows Resilience As Its Partners Battle,Megumi Fujikawa,,576,P2,NEU,0.05,0.0161,0.9339,-0.8625,0.077,0.094,0.83
+P2_WSJ_0159,The Wall Street Journal,2019-08-10,World News: Risk of Recession Grows for Asia Commercial Hub,"John Lyons, Frances Yoon and Ese Erheriene",,823,P2,NEU,0.0116,0.0321,0.9563,-0.9966,0.063,0.146,0.791
+P2_WSJ_0160,The Wall Street Journal,2019-08-10,"Stocks ended on a down note Friday, capping a week in which investors ricocheted between riskier and safer assets amid advances and retreats of the U.S.-China trade war and watched warily as currency markets emerged as a new front in the dispute.",,,191,P2,NEU,0.0282,0.0284,0.9434,-0.9081,0.044,0.102,0.854
+P2_WSJ_0161,The Wall Street Journal,2019-08-10,Trade Tension Sends Markets On Wild Week --- Concerns about growth sparked some of the most volatile sessions of the year,Alexander Osipovich,,939,P2,NEU,0.0076,0.2445,0.7479,-0.9962,0.065,0.126,0.809
+P2_WSJ_0163,The Wall Street Journal,2019-08-10,EXCHANGE --- Markets -- Commodities: Copper's Swoon Clouds Supply,Amrith Ramkumar,,653,P2,NEU,0.0197,0.0052,0.9752,0.8799,0.065,0.06,0.875
+P2_WP_0165,The Washington Post,2018-08-20,What the strongmen are forgetting,,,809,P2,NEG,0.0095,0.6527,0.3379,-0.9845,0.101,0.131,0.768
+P2_WP_0166,The Washington Post,2018-08-20,The superimposed K-Zone box is a super imposition to baseball fans everywhere,,,926,P2,NEU,0.1859,0.003,0.8111,0.9873,0.098,0.065,0.837
+P2_NYT_0167,The New York Times,2018-08-20,Trump's Silly War With Harley-Davidson,BILL SAPORITO,,224,P2,NEU,0.0174,0.0632,0.9194,0.9851,0.078,0.043,0.879
+P2_NYT_0169,The New York Times,2018-08-20,"Taiwan President Stops in U.S. as Relations Warm, Angering  China",CHRIS HORTON,,15,P2,NEU,0.0121,0.0367,0.9512,0.8954,0.095,0.086,0.819
+P2_WP_0170,The Washington Post,2018-08-20,The Daily 202: Democratic push for redistricting commissions gains steam as midterms approach,James Hohmann,,953,P2,NEU,0.1054,0.0025,0.8922,0.9877,0.096,0.03,0.874
+P2_WP_0171,The Washington Post,2018-08-20,Erdogan's search for new allies begins with allowing a German journalist to finally leave Turkey,Rick Noack,,761,P2,NEU,0.0422,0.0043,0.9535,-0.9964,0.076,0.144,0.78
+P2_WP_0172,The Washington Post,2018-08-20,"Let's roll back the hyper-globalization rules of the WTO ; Strict trade rules only create more protectionists like Trump, says Dani Rodrik.",Nathan Gardels,,900,P2,NEU,0.0116,0.1893,0.7991,0.9978,0.14,0.043,0.816
+P2_WP_0173,The Washington Post,2018-08-20,Eric Garcetti responds to our policy questions,Jennifer Rubin,,444,P2,NEU,0.0256,0.0041,0.9703,-0.3744,0.053,0.059,0.888
+P2_PBS_0174,PBS NewsHour,2018-08-20,"PBS NewsHour for August 20, 2018",,,333,P2,NEU,0.0228,0.0044,0.9729,-0.9983,0.044,0.134,0.822
+P2_NYT_0175,The New York Times,2018-08-20,Companies Warn More  China Tariffs  Will Cripple Them and Hurt Consumers,Alan Rappeport,,329,P2,NEU,0.0102,0.1471,0.8426,0.9562,0.082,0.063,0.855
+P2_NYT_0176,The New York Times,2018-08-20,DealBook Briefing: Who Isn’t Worried About Elon Musk?,,,270,P2,NEU,0.1194,0.004,0.8766,0.5526,0.069,0.059,0.872
+P2_FT_0177,Financial Times,2018-08-20,Trade war  imperils foreign banks'  China  plans,,,138,P2,NEU,0.0096,0.1827,0.8077,-0.5623,0.081,0.072,0.847
+P2_FT_0178,Financial Times,2018-08-20,Beijing  orders banks to support exporters as  trade war  fears rise,,,493,P2,NEU,0.0166,0.0177,0.9657,-0.6124,0.055,0.136,0.81
+P2_FT_0179,Financial Times,2018-08-20,Farmers take Washington to task over biofuels mandate,,,646,P2,NEU,0.023,0.0078,0.9692,0.0,0.0,0.0,1.0
+P2_FT_0180,Financial Times,2018-08-20,Growth drives global dividends to record level,,,400,P2,NEU,0.4938,0.0023,0.5039,0.3818,0.071,0.0,0.929
+P2_FT_0181,Financial Times,2018-08-20,Defuse trade tension and cut car import  tariffs  to zero,,,650,P2,NEU,0.0794,0.0044,0.9162,0.9986,0.175,0.051,0.774
+P2_FT_0182,Financial Times,2018-08-20,"Volvo chief makes free trade plea with call to scrap US,  China  and EU levies",,,406,P2,NEU,0.0299,0.0118,0.9583,0.5106,0.073,0.0,0.927
+P2_WSJ_0183,The Wall Street Journal,2018-08-20,Tariffs  Can Be Useful if They're Used Wisely,,,288,P2,NEU,0.0683,0.0053,0.9264,0.6908,0.144,0.0,0.856
+P2_WSJ_0184,The Wall Street Journal,2018-08-20,Chip-Equipment Makers Pinched,Dan Gallagher,,447,P2,NEU,0.0169,0.0064,0.9767,0.0,0.0,0.0,1.0
+P2_WSJ_0185,The Wall Street Journal,2018-08-20,"Business News: Apple Pulls Apps, Pressed by  Beijing",Yoko Kubota,,264,P2,NEU,0.0115,0.0652,0.9232,0.0,0.0,0.0,1.0
+P2_NYT_0187,The New York Times,2018-12-12,The Huawei Executive’s Arrest Is Igniting Fear. The U.S. Should Take Notice.; The New New World,Li Yuan,,344,P2,NEU,0.0087,0.2089,0.7824,0.6946,0.102,0.095,0.802
+P2_WP_0188,The Washington Post,2018-12-12,"If you like betting on embattled underdogs, this leader is worth a look ; Freedom and quasi-independence are the dividends of careful relationships with both  China  and the United States.",David Ignatius,,862,P2,POS,0.7043,0.0025,0.2932,0.9942,0.139,0.077,0.784
+P2_WP_0189,The Washington Post,2018-12-12,"Trump administration to condemn  China  over hacking and economic espionage, escalating tensions between superpowers",Ellen Nakashima;David J. Lynch,,485,P2,NEU,0.0108,0.1356,0.8536,0.9929,0.122,0.063,0.814
+P2_WP_0190,The Washington Post,2018-12-12,Jailed Huawei executive granted bail in Canada ahead of possible extradition to U.S.,Emily Rauhala,,87,P2,NEU,0.0155,0.0081,0.9764,-0.9858,0.072,0.098,0.83
+P2_WP_0192,The Washington Post,2018-12-12,Senate passes $867 billion farm bill,,,852,P2,NEU,0.3583,0.0022,0.6395,-0.5017,0.046,0.056,0.898
+P2_WP_0196,The Washington Post,2018-12-12,The Finance 202: Trump plays nice with  China  as his administration gets tough,Tory Newmyer,,792,P2,NEU,0.1119,0.0044,0.8836,-0.8797,0.091,0.099,0.81
+P2_WP_0197,The Washington Post,2018-12-12,The Daily 202: Five implications of Trump's Oval Office clash with Pelosi and Schumer over the border wall ; Divided government may boost a Democrat running from outside Washington in 2020.,James Hohmann,,397,P2,NEU,0.0291,0.0076,0.9633,0.9588,0.049,0.02,0.931
+P2_WP_0198,The Washington Post,2018-12-12,"The U.S. often takes hostages in trade fights. They usually aren't live human beings ; By turning the Huawei arrest into a bargaining chip, Trump is damaging U.S. credibility.",Henry Farrell,,17,P2,NEG,0.0025,0.9199,0.0776,-0.8126,0.0,0.132,0.868
+P2_WP_0199,The Washington Post,2018-12-12,The economic match of the moment: Consumer spending vs. the rest,Jared Bernstein,,73,P2,NEU,0.0155,0.1116,0.8729,0.9938,0.134,0.087,0.779
+P2_WP_0200,The Washington Post,2018-12-12,Congress just passed an $867 billion farm bill. Here's what's in it.,Jeff Stein,,973,P2,NEU,0.3692,0.0021,0.6287,-0.6848,0.07,0.076,0.854
+P2_NYT_0201,The New York Times,2018-12-12,Markets Rise After Positive Signals Between U.S. and  China,Amie Tsang and Matt Phillips,,623,P2,NEU,0.4008,0.0025,0.5967,0.9842,0.1,0.047,0.854
+P2_NYT_0202,The New York Times,2018-12-12,DealBook Briefing: How Trump Plans to Keep  China  In Line on Trade,,,28,P2,NEU,0.0515,0.0032,0.9453,0.9696,0.103,0.075,0.822
+P2_MSNBC_0203,MSNBC,2018-12-12,"THE LAST WORD WITH LAWRENCE O`DONNELL for December 12, 2018, MSNBC",,,506,P2,NEU,0.0215,0.0048,0.9737,0.9455,0.1,0.068,0.832
+P2_FT_0204,Financial Times,2018-12-12,Porsche was among the day's biggest gainers after Exane argued that the shares could double if the founding family allowed key shareholder Volkswagen to collapse its complex holding structure.,,,176,P2,NEU,0.1891,0.0113,0.7995,-0.3818,0.085,0.098,0.817
+P2_FT_0205,Financial Times,2018-12-12,Renewed optimism about US-China trade talks led US markets sharply higher with automakers leading the way.,,,188,P2,POS,0.8281,0.0022,0.1697,0.9806,0.161,0.037,0.802
+P2_FT_0206,Financial Times,2018-12-12,"The S&P 500 gave back all of an early 1.4 per cent rise, although European stocks ended higher, with the resources, carmaking and technology sectors leading the way.",,,371,P2,POS,0.7095,0.002,0.2885,-0.9879,0.045,0.143,0.812
+P2_FT_0207,Financial Times,2018-12-12,Automobiles. Declining performance Market heads for first annual drop since 1990s as trade tension with US deepens,,,585,P2,NEU,0.0186,0.3936,0.5878,-0.9932,0.033,0.109,0.857
+P2_FT_0208,Financial Times,2018-12-12,ArcelorMittal demands robust EU defences against dumping,,,416,P2,NEU,0.0331,0.0084,0.9585,-0.9725,0.065,0.103,0.833
+P2_FT_0209,Financial Times,2018-12-12,China  will choose  tariffs  over damage to its dignity,,,230,P2,NEU,0.0163,0.0417,0.942,-0.128,0.069,0.082,0.848
+P2_FT_0210,Financial Times,2018-12-12,China  moves to cut US car  tariffs  in first sign of  trade war  detente,,,508,P2,NEU,0.0281,0.0099,0.962,-0.7184,0.0,0.122,0.878
+P2_FT_0211,Financial Times,2018-12-12,China  detains former Canada diplomat after Huawei arrest,,,407,P2,NEU,0.0124,0.017,0.9706,-0.34,0.0,0.061,0.939
+P2_FT_0212,Financial Times,2018-12-12,China  moves to reduce US car  tariffs  in first indication of  trade war  detente,,,404,P2,NEU,0.0411,0.0088,0.9501,-0.5994,0.0,0.081,0.919
+P2_PBS_0213,PBS NewsHour,2018-12-12,"PBS NewsHour for December 12, 2018",,,865,P2,NEU,0.0195,0.0051,0.9753,-0.9795,0.069,0.098,0.833
+P2_WSJ_0214,The Wall Street Journal,2018-12-12,"China  Moves to Soothe Tensions ---  Beijing  agrees to cut auto  tariffs  and buy more products, but key differences remain",Bob Davis in Washington and Lingling Wei in Beijing,,814,P2,NEU,0.0323,0.0056,0.9622,0.9878,0.104,0.067,0.829
+P2_WSJ_0215,The Wall Street Journal,2018-12-12,Corrections & Amplifications,,,186,P2,NEU,0.0152,0.0073,0.9775,0.0,0.0,0.0,1.0
+P2_WSJ_0216,The Wall Street Journal,2018-12-12,Markets & Finance: Copper Rallies on Trade Hopes,Ira Iosebashvili,,187,P2,NEU,0.0211,0.0043,0.9745,-0.7506,0.057,0.167,0.776
+P2_WSJ_0217,The Wall Street Journal,2018-12-12,Treasurys Fall as Market Calms Down,Sam Goldfarb,,435,P2,NEU,0.0132,0.1205,0.8663,-0.8977,0.047,0.061,0.891
+P2_WSJ_0218,The Wall Street Journal,2018-12-12,"China agreed to reduce tariffs on U.S. autos to 15% from 40% currently, during a phone call with U.S. officials that opened the latest round of talks aimed at settling a trade dispute between the two countries.",,,233,P2,NEU,0.0744,0.0148,0.9108,-0.9567,0.031,0.108,0.862
+P2_WSJ_0219,The Wall Street Journal,2018-12-12,Stocks End Wild Day With Modest Loss,David Hodari and Akane Otani,,614,P2,NEU,0.014,0.0653,0.9206,-0.1432,0.07,0.065,0.864
+P2_NYT_0221,The New York Times,2019-01-23,Pessimism Looms Over Prospect of a Sweeping  China  Trade Deal,Alan Rappeport,,559,P2,NEU,0.0106,0.0906,0.8988,0.9929,0.117,0.059,0.824
+P2_WP_0222,The Washington Post,2019-01-23,"John Kerry, in Davos, says Trump should 'resign'",Heather Long,,592,P2,NEU,0.0132,0.0336,0.9532,-0.9764,0.062,0.097,0.841
+P2_WP_0223,The Washington Post,2019-01-23,U.S. to proceed with case against Huawei executive arrested in Canada,Anna Fifield;Emily Rauhala;Ellen Nakashima,,956,P2,NEU,0.0125,0.0076,0.9799,-0.9872,0.067,0.104,0.829
+P2_WP_0224,The Washington Post,2019-01-23,Health-Environment-Science,Lisa Rein;Juliet Eilperin;Jeff Stein,,46,P2,NEU,0.0109,0.181,0.808,0.8301,0.087,0.071,0.842
+P2_NYT_0225,The New York Times,2019-01-22,"At the One-Issue White House, the Standoff Over a Border Wall Displaces Other Priorities",Peter Baker,,382,P2,NEU,0.0151,0.0066,0.9783,0.9124,0.089,0.076,0.835
+P2_WP_0226,The Washington Post,2019-01-23,"In Trump's negotiating manual, creating a crisis is just a tool to gain leverage",,,432,P2,NEU,0.0068,0.4913,0.5019,0.9045,0.098,0.086,0.816
+P2_NYT_0229,The New York Times,2019-01-23,Government Shutdown: Updates on Where Things Stand Now,MATTHEW HAAG and NIRAJ CHOKSHI,,943,P2,NEU,0.0213,0.0044,0.9744,-0.9716,0.073,0.094,0.833
+P2_NYT_0230,The New York Times,2019-01-23,DealBook Briefing: Trade Concerns Rise on Report of Canceled Meeting,,,963,P2,NEU,0.0127,0.0609,0.9263,0.9919,0.109,0.054,0.837
+P2_WP_0231,The Washington Post,2019-01-23,The Finance 202: New friction in U.S.- China  trade talks points to hurdles for a deal,Tory Newmyer,,100,P2,NEU,0.0094,0.038,0.9526,-0.1682,0.083,0.08,0.838
+P2_WP_0232,The Washington Post,2019-01-23,"Japanese prime minister takes swipes at Trump on trade, climate and the number of women in the U.S. workforce",Heather Long,,635,P2,NEU,0.0194,0.023,0.9576,0.9983,0.173,0.045,0.782
+P2_NYT_0233,The New York Times,2019-01-23,"As Next Trump-Kim Summit Nears, Japan Worries U.S. Will Leave It in the Dark",Mark Landler,,700,P2,NEU,0.0098,0.0319,0.9582,0.9916,0.106,0.057,0.837
+P2_WP_0234,The Washington Post,2019-01-23,Five reasons Trump may be a one-termer,Jennifer Rubin,,127,P2,NEG,0.0057,0.5562,0.438,0.2368,0.112,0.108,0.78
+P2_WP_0235,The Washington Post,2019-01-23,"Google led a multimillion-dollar tech industry lobbying blitz in 2018, records show",Tony Romm,,840,P2,NEU,0.0272,0.0045,0.9684,-0.0772,0.0,0.031,0.969
+P2_NYT_0236,The New York Times,2019-01-23,Corporate Chiefs Look Past Economic Risks and Pin Hopes on Trump for Trade Deal,Emily Flitter and Jim Tankersley,,617,P2,NEU,0.0407,0.0042,0.955,0.6108,0.1,0.087,0.813
+P2_NYT_0237,The New York Times,2019-01-23,Chinese -Australian Writer Yang Hengjun Detained in  China,Damien Cave and Chris Buckley,,238,P2,NEU,0.0102,0.0123,0.9775,-0.3688,0.082,0.089,0.83
+P2_WP_0238,The Washington Post,2019-01-23,"Trying to translate Trump into  Chinese , one tweet at a time",Anna Fifield,,61,P2,NEU,0.0223,0.0232,0.9546,-0.9917,0.068,0.112,0.82
+P2_FT_0240,Financial Times,2019-01-23,China  executive fears US dispute will hurt investing,,,592,P2,NEU,0.0091,0.0896,0.9013,0.8989,0.093,0.077,0.83
+P2_FT_0241,Financial Times,2019-01-23,White House rejects trade visit by  Beijing  ministers,,,627,P2,NEU,0.0095,0.2479,0.7426,0.9837,0.112,0.075,0.813
+P2_FT_0242,Financial Times,2019-01-23,Advocates of an open economy face rough road,,,948,P2,NEU,0.0259,0.0206,0.9535,0.0,0.0,0.0,1.0
+P2_FT_0243,Financial Times,2019-01-23,Davos navigates geopolitical fallout,,,304,P2,NEU,0.0243,0.0077,0.968,0.5233,0.087,0.081,0.833
+P2_FT_0244,Financial Times,2019-01-23,Bright skies offer no cover for sharp change in the atmosphere,,,886,P2,NEU,0.3023,0.0029,0.6948,0.1779,0.069,0.052,0.879
+P2_FT_0245,Financial Times,2019-01-23,US and  China  race for technologies of future,,,936,P2,NEU,0.02,0.008,0.972,-0.9912,0.082,0.121,0.797
+P2_FT_0246,Financial Times,2019-01-23,Trade warriors prioritise optics over complex substance,,,906,P2,NEU,0.0157,0.0245,0.9597,-0.8227,0.102,0.108,0.791
+P2_FT_0247,Financial Times,2019-01-23,Bunge replaces chief after  trade war  bet sours,,,474,P2,NEU,0.0141,0.0094,0.9765,-0.5994,0.0,0.095,0.905
+P2_FOX_0248,Fox News,2019-01-23,iPhone Assembler Studies Shift to India --- Foxconn looks to reduce its reliance on  China  by diversifying its production base,,,657,P2,NEU,0.091,0.0028,0.9062,0.3174,0.032,0.024,0.945
+P2_WSJ_0249,The Wall Street Journal,2019-01-23,Earnings Reports Threaten Stocks' Calm,Amrith Ramkumar,,679,P2,NEU,0.1491,0.0257,0.8252,0.8895,0.088,0.072,0.84
+P2_WSJ_0250,The Wall Street Journal,2019-01-23,Stocks Slide on Growth Worries,Michael Wursthorn and Avantika Chilkoti,,645,P2,NEU,0.0092,0.3271,0.6637,-0.975,0.067,0.101,0.832
+P2_WSJ_0251,The Wall Street Journal,2019-01-23,Bonds Benefit From Shift to Safety,Daniel Kruger,,390,P2,NEU,0.0712,0.0027,0.9261,0.7003,0.136,0.0,0.864
+P2_WSJ_0252,The Wall Street Journal,2019-01-23,World News: Groups Criticize  China 's Tech Push,Bob Davis in Washington and Lingling Wei in Beijing,,778,P2,NEU,0.0136,0.076,0.9104,0.9478,0.071,0.047,0.881
+P2_NYT_0254,The New York Times,2019-07-05,Lee Iacocca Was a C.E.O. for the Television Age; An Appraisal,Keith Bradsher,,596,P2,NEU,0.0208,0.005,0.9742,0.7891,0.056,0.052,0.892
+P2_NYT_0255,The New York Times,2019-07-05,Trump Is Losing His Trade Wars,PAUL KRUGMAN,,968,P2,NEU,0.0317,0.1391,0.8292,-0.9955,0.1,0.15,0.75
+P2_WP_0256,The Washington Post,2019-07-05,"Even if Trump trusts Huawei, here's why America shouldn't",Isaac Stone Fish,,965,P2,NEU,0.0092,0.1262,0.8646,0.7164,0.073,0.063,0.864
+P2_NYT_0257,The New York Times,2019-07-05,"Samsung, Stung by  Trade War , Expects a Big Plunge in Profits",Michael J. de la Merced,,360,P2,NEU,0.0151,0.0764,0.9085,-0.25,0.054,0.072,0.874
+P2_NYT_0258,The New York Times,2019-07-05,"Trade War  May Be Slowing Business Spending and Factories, Fed Says",Jeanna Smialek,,584,P2,NEU,0.0146,0.0266,0.9588,-0.9776,0.095,0.132,0.774
+P2_WP_0259,The Washington Post,2019-07-05,Can Ursula von der Leyen save the transatlantic relationship?,Judy Dempsey,,944,P2,NEG,0.0076,0.5125,0.4799,0.9858,0.128,0.074,0.798
+P2_NYT_0260,The New York Times,2019-07-05,DealBook Briefing: Deutsche Bank ’s Bloodletting May Soon Begin,,,32,P2,NEU,0.0671,0.0027,0.9302,-0.5852,0.066,0.061,0.873
+P2_FT_0261,Financial Times,2019-07-05,Trade tensions put Hollywood actors out of the picture in  Chinese  studios,,,413,P2,NEU,0.0108,0.0781,0.9111,-0.4019,0.0,0.065,0.935
+P2_FT_0262,Financial Times,2019-07-05,Tariff  woes and fears for global growth prompt US boards to rein in spending,,,465,P2,NEU,0.0152,0.0578,0.927,0.74,0.066,0.049,0.885
+P2_FT_0263,Financial Times,2019-07-05,China 's short-term borrowing costs hit 10-year low after liquidity injections,,,429,P2,NEU,0.0188,0.0932,0.888,-0.2732,0.0,0.052,0.948
+P2_FT_0264,Financial Times,2019-07-05,It is unwise to expect another big boom in  Chinese  equities,,,837,P2,NEU,0.021,0.041,0.938,0.9406,0.072,0.049,0.879
+P2_FT_0265,Financial Times,2019-07-05,US actors become victims of  trade war  as  China  film studios refuse to cast them,,,487,P2,NEG,0.0054,0.5757,0.4189,-0.8126,0.0,0.174,0.826
+P2_NYT_0266,The New York Times,2019-07-05,Strong Jobs Report Eases Fears of Damage From  Trade War,Ben Casselman,,504,P2,POS,0.7119,0.0027,0.2854,-0.6777,0.097,0.11,0.792
+P2_WSJ_0267,The Wall Street Journal,2019-07-05,"Univision is exploring a possible sale, a move that would put an end to 12 years of private-equity ownership of the Spanish-language broadcaster.",,,217,P2,NEU,0.011,0.2885,0.7005,-0.205,0.063,0.075,0.862
+P2_WSJ_0268,The Wall Street Journal,2019-07-05,U.S. News: Trade Gap Showed Widening in May,Paul Kiernan,,526,P2,NEU,0.0099,0.0341,0.956,0.0,0.0,0.0,1.0
+P2_WSJ_0269,The Wall Street Journal,2019-07-05,Farmers Defend a Soybean Empire --- U.S.- China  trade tensions hobble an export industry that took decades to build,Jesse Newman,,958,P2,NEU,0.0119,0.0449,0.9431,0.7165,0.051,0.044,0.906
+P2_WP_0271,The Washington Post,2018-07-09,Pompeo pushes back against North Korea's 'gangster-like' criticism,John Hudson;Adam Taylor,,882,P2,NEU,0.0174,0.0115,0.9711,0.5012,0.072,0.053,0.874
+P2_NYT_0272,The New York Times,2018-07-09,"Thai Rescue, Novichok, Breast-Feeding: Your Monday Briefing",Remy Tumin,,385,P2,NEU,0.0251,0.0039,0.971,-0.8987,0.073,0.084,0.843
+P2_NYT_0273,The New York Times,2018-07-09,The Jobs Lost to Auto  Tariffs,JAMIE LINCOLN KITMAN,,20,P2,NEU,0.0125,0.0939,0.8936,0.9901,0.097,0.057,0.846
+P2_NYT_0275,The New York Times,2018-07-09,Pompeo Sharpens Tone on North Korea,GARDINER HARRIS,,640,P2,NEU,0.0283,0.0043,0.9674,0.9636,0.095,0.067,0.838
+P2_NYT_0276,The New York Times,2018-07-09,Trump’s Retreat From the West,Maxim Trudolyubov,,259,P2,NEU,0.0249,0.0052,0.9699,0.862,0.102,0.086,0.812
+P2_WP_0277,The Washington Post,2018-07-09,The Finance 202: Voters already fear economic pain from Trump's  trade war  ; A new poll may serve as a warning to the White House.,Tory Newmyer,,934,P2,NEU,0.0121,0.1931,0.7948,-0.852,0.089,0.099,0.812
+P2_WP_0278,The Washington Post,2018-07-09,"On trade, Trump promised win-win. He's delivering lose-lose. ; Trump  tariffs  won't help those hurt by trade. They will, however, hurt those helped by it.",Jared Bernstein,,988,P2,NEG,0.0139,0.4946,0.4915,-0.8489,0.088,0.094,0.817
+P2_WP_0279,The Washington Post,2018-07-09,"Trump's delusions are about to blow up in his own voters' faces ; His  trade war  with  China  is likely to have a greater impact on counties that voted for him, and not in a good way.",Greg Sargent,,655,P2,NEG,0.0043,0.8762,0.1195,-0.9304,0.058,0.076,0.866
+P2_NYT_0280,The New York Times,2018-07-09,Why Xiaomi’s Offering May Not Spell Trouble for Other  Chinese  Unicorns,Michael J. de la Merced,,727,P2,NEU,0.0346,0.004,0.9614,0.9837,0.088,0.055,0.857
+P2_WP_0281,The Washington Post,2018-07-09,"As Trumpism takes hold, Republicans face increasing pressure to embrace policies they once opposed",Seung Min Kim,,322,P2,NEU,0.0479,0.0286,0.9235,0.2432,0.092,0.088,0.821
+P2_NYT_0282,The New York Times,2018-07-09,China ’s Taste for Soybeans Is a Weak Spot in the  Trade War  With Trump,Raymond Zhong,,417,P2,NEU,0.0109,0.0309,0.9582,0.991,0.092,0.042,0.867
+P2_NYT_0283,The New York Times,2018-07-08,Xiaomi’s Weak I.P.O. Raises Doubts About  China ’s Tech Boom,Alexandra Stevenson,,971,P2,NEU,0.0122,0.048,0.9398,0.9963,0.118,0.045,0.837
+P2_WP_0284,The Washington Post,2018-07-09,America will survive Trump. The rest of the world might not.,Eugene Robinson,,786,P2,NEU,0.2021,0.0561,0.7418,-0.9928,0.105,0.147,0.748
+P2_NYT_0285,The New York Times,2018-07-09,"Trump,  Tariffs , Tofu and Tax Cuts",Paul Krugman,,923,P2,NEU,0.0185,0.0086,0.9729,0.6225,0.132,0.127,0.741
+P2_NYT_0286,The New York Times,2018-07-09,Trade Politics Comes to the County Fair,"Alan Blinder, Thomas Fuller and Monica Davey",,137,P2,NEU,0.0226,0.0044,0.973,0.9647,0.082,0.06,0.858
+P2_MSNBC_0287,MSNBC,2018-07-09,"HARDBALL WITH CHRIS MATTHEWS for July 9, 2018, MSNBC",,,557,P2,NEU,0.0228,0.0046,0.9726,0.9966,0.106,0.021,0.873
+P2_MSNBC_0288,MSNBC,2018-07-09,"MTP DAILY July 9, 2018, MSNBC",,,552,P2,NEU,0.0259,0.0041,0.97,0.9832,0.098,0.064,0.837
+P2_FT_0290,Financial Times,2018-07-09,"In Britain, time to stock up on tinned food and shotguns. HGWXX7 via FT.com ? Take part in the discussion!",,,650,P2,NEU,0.0236,0.0083,0.968,0.3571,0.121,0.109,0.769
+P2_FT_0291,Financial Times,2018-07-09,"? The US has imposed tariffs against China that affect $613m worth of chips, not $250m as incorrectly stated in an article on July 5.",,,71,P2,NEU,0.0083,0.11,0.8818,0.2406,0.026,0.015,0.958
+P2_FT_0292,Financial Times,2018-07-09,Obrador ally upbeat on prospects for Nafta deal,,,804,P2,NEU,0.4334,0.0022,0.5644,0.9931,0.105,0.045,0.851
+P2_FT_0293,Financial Times,2018-07-09,Centrica burns through the pain barrier,,,53,P2,NEU,0.0168,0.0106,0.9727,0.9855,0.12,0.077,0.803
+P2_FT_0294,Financial Times,2018-07-09,China  pursues alliance with EU in trade tussle with US,,,518,P2,NEU,0.0204,0.0051,0.9745,0.0,0.0,0.0,1.0
+P2_NYT_0296,The New York Times,2018-07-09,DealBook Briefing: Breast-Feeding Could Have Kicked Off Another  Trade War,,,206,P2,NEU,0.023,0.0288,0.9482,0.9481,0.071,0.054,0.876
+P2_PBS_0297,PBS NewsHour,2018-07-09,"PBS NewsHour for July 9, 2018",,,567,P2,NEU,0.0185,0.0051,0.9764,0.9796,0.075,0.038,0.887
+P2_WSJ_0298,The Wall Street Journal,2018-07-09,A Brief Introduction to Trade Economics,Alan S. Blinder,,864,P2,NEU,0.0591,0.0028,0.9381,0.9942,0.114,0.057,0.829
+P2_WSJ_0299,The Wall Street Journal,2018-07-09,U.S. Deficits Will Cost the Dollar,Richard Barley,,441,P2,NEU,0.0104,0.0512,0.9384,0.0,0.0,0.0,1.0
+P2_WP_0301,The Washington Post,2018-06-03,The Recap From news services and staff reports,,,548,P2,NEU,0.0151,0.0065,0.9785,0.4084,0.074,0.0,0.926
+P2_WP_0302,The Washington Post,2018-06-03,Trump's trade moves shake global system,,,575,P2,NEU,0.0248,0.0808,0.8944,-0.9632,0.109,0.119,0.772
+P2_WP_0303,The Washington Post,2018-06-03,Rising interest rates hit the heartland,,,454,P2,NEU,0.0128,0.0808,0.9064,-0.5903,0.092,0.097,0.811
+P2_NYT_0304,The New York Times,2018-06-03,U.S.- China  Trade Talks End in an Impasse,Keith Bradsher,,878,P2,NEU,0.011,0.0971,0.8919,0.9661,0.095,0.071,0.834
+P2_NYT_0306,The New York Times,2018-06-03,How Mnuchin Keeps a Steady Grip in a Tug of War on Trade,Alan Rappeport,,748,P2,NEU,0.0227,0.0047,0.9726,0.3765,0.073,0.068,0.859
+P2_NYT_0307,The New York Times,2018-06-03,"So how does Trump have the authority to do this? And what are the consequences for the world? It seems to me that this might be a good time to write down a brief, non-scholarly primer on how the trading system – and U.S. trade policy within that system – work.",Paul Krugman,,386,P2,NEU,0.0148,0.0196,0.9656,0.9941,0.117,0.054,0.829
+P2_NYT_0309,The New York Times,2019-03-07,White Meat or Dark? Brexit Muddles the Picture,Benjamin Mueller,,239,P2,NEU,0.0125,0.0081,0.9795,0.737,0.086,0.074,0.84
+P2_NYT_0310,The New York Times,2019-03-07,Why Are Republicans Embracing Economic State Planning?,Veronique de Rugy,,171,P2,NEU,0.0171,0.022,0.9609,0.9976,0.161,0.072,0.767
+P2_WP_0311,The Washington Post,2019-03-07,"As trade deficit explodes, Trump finds he can't escape the laws of economics",David J. Lynch,,403,P2,NEU,0.0154,0.0536,0.931,-0.9915,0.062,0.107,0.83
+P2_NYT_0312,The New York Times,2019-03-06,"North Korea, Jair Bolsonaro, Martha McSally: Your Thursday Briefing",Penn Bullock,,625,P2,NEU,0.027,0.0037,0.9693,-0.9786,0.066,0.099,0.835
+P2_NYT_0313,The New York Times,2019-03-07,On Politics: Trade Deficit Hits Record $891 Billion,,,540,P2,NEU,0.0268,0.014,0.9592,-0.9727,0.08,0.112,0.808
+P2_WP_0314,The Washington Post,2019-03-07,Trump fights to defend his record amid agenda obstacles,,,514,P2,NEU,0.0389,0.0057,0.9554,-0.9949,0.095,0.148,0.756
+P2_WP_0315,The Washington Post,2019-03-07,Trump aides struggle to defend him on foreign policy,,,570,P2,NEU,0.0144,0.0374,0.9482,0.7604,0.083,0.068,0.849
+P2_NYT_0317,The New York Times,2019-03-07,DealBook Briefing: Facebook Prioritizes Privacy. Can It Deliver?,,,138,P2,NEU,0.1257,0.0025,0.8718,0.9694,0.124,0.094,0.782
+P2_WP_0318,The Washington Post,2019-03-07,A letter from the front line of the trade wars,Daniel W. Drezner,,782,P2,NEU,0.0134,0.0077,0.9789,-0.5574,0.0,0.083,0.917
+P2_NYT_0319,The New York Times,2019-03-07,Tom Brokaw: What Trump and Nixon Share,Tom Brokaw,,939,P2,NEU,0.0226,0.005,0.9725,-0.9954,0.083,0.131,0.787
+P2_WP_0320,The Washington Post,2019-03-07,Trump supporters should be tired of all this losing,Jennifer Rubin,,726,P2,NEG,0.0032,0.9283,0.0686,-0.9981,0.083,0.185,0.732
+P2_NYT_0321,The New York Times,2019-03-07,"Global Economy Slows, Pushing Europe’s Central Bank to Make a Surprise Move",Jack Ewing,,318,P2,NEU,0.016,0.0434,0.9406,-0.9807,0.075,0.108,0.816
+P2_NYT_0322,The New York Times,2019-03-07,Chinese  Officials Becoming Wary of a Quick Trade Deal,Keith Bradsher and Ana Swanson,,369,P2,NEU,0.0166,0.0184,0.965,0.9724,0.087,0.06,0.853
+P2_NYT_0323,The New York Times,2019-03-07,"With Streaks of Gray Hair, Xi Jinping of  China  Breaks With Tradition",Javier C. Hernández,,877,P2,NEU,0.0186,0.0056,0.9758,0.9963,0.102,0.034,0.865
+P2_NYT_0324,The New York Times,2019-03-07,"Kashmir,  China , Joe Biden: Your Friday Briefing",Alisha Haridasani Gupta and Melina Delkic,,539,P2,NEU,0.0194,0.005,0.9756,-0.9972,0.049,0.14,0.812
+P2_PBS_0325,PBS NewsHour,2019-03-07,"PBS NewsHour for March 7, 2019",,,323,P2,NEU,0.0224,0.0044,0.9732,-0.9917,0.086,0.128,0.786
+P2_FT_0326,Financial Times,2019-03-07,Whiskey  tariffs  knock Jack Daniel's maker,,,428,P2,NEU,0.0156,0.0131,0.9713,0.0,0.0,0.0,1.0
+P2_FT_0327,Financial Times,2019-03-07,Xi needs a trade deal just as much as Trump does,,,858,P2,NEU,0.0181,0.0093,0.9726,0.0,0.0,0.0,1.0
+P2_FT_0328,Financial Times,2019-03-07,EU sets target of 2020 for  China  investment deal,,,731,P2,NEU,0.0244,0.0048,0.9707,0.9287,0.064,0.035,0.901
+P2_FT_0329,Financial Times,2019-03-07,Lighthizer's bypassing of global rules is justified,,,284,P2,NEU,0.0132,0.0461,0.9407,0.4019,0.078,0.0,0.922
+P2_WP_0330,The Washington Post,2019-03-07,'The silence is deafening': Major brands avoid Trump even as he promotes them from the White House,Toluse Olorunnipa,,420,P2,NEU,0.0217,0.1209,0.8574,0.9968,0.109,0.028,0.863
+P2_FT_0331,Financial Times,2019-03-07,Polestar ready to cut US sales targets if  China  exports face higher  tariffs,,,466,P2,NEU,0.0213,0.0154,0.9634,-0.9553,0.037,0.067,0.896
+P2_WSJ_0332,The Wall Street Journal,2019-03-07,Trump Has Been Bad for Farmers,Michael Bennet,,519,P2,NEU,0.0143,0.3022,0.6835,-0.5423,0.0,0.084,0.916
+P2_WSJ_0333,The Wall Street Journal,2019-03-07,Business News: Tesla's Price Cuts Prompt Owner Backlash in  China,Trefor Moss,,495,P2,NEU,0.0079,0.3891,0.603,-0.296,0.0,0.05,0.95
+P2_WSJ_0334,The Wall Street Journal,2019-03-07,Dow Falls 133 as Jobs Data Loom,Amrith Ramkumar and Avantika Chilkoti,,668,P2,NEU,0.0143,0.018,0.9678,0.9916,0.096,0.04,0.865
+P2_NYT_0336,The New York Times,2019-05-24,How Trump Is Getting in His Own Way in Venezuela,Javier Corrales,,89,P2,NEU,0.0155,0.027,0.9576,-0.7969,0.103,0.107,0.79
+P2_WP_0337,The Washington Post,2019-05-24,Federal Reserve report: Almost 40 percent of Americans would still strugglewith $400 financial emergency,,,709,P2,NEG,0.0051,0.6514,0.3435,0.9499,0.092,0.076,0.832
+P2_WP_0338,The Washington Post,2019-05-24,"From the emperor to sumo wrestling, Abe harnesses Japan's traditions to impress Trump",Simon Denyer;David Nakamura,,526,P2,NEU,0.0575,0.0044,0.9381,0.9972,0.112,0.035,0.853
+P2_NYT_0339,The New York Times,2019-05-23,Trump Administration to Expand Penalties for Currency Manipulators,Ana Swanson and Alan Rappeport,,785,P2,NEU,0.0108,0.0489,0.9404,0.9614,0.082,0.043,0.875
+P2_NYT_0340,The New York Times,2019-05-24,On Politics: The  Trade War  Is Here to Stay,,,497,P2,NEU,0.0305,0.0071,0.9624,0.4321,0.059,0.054,0.887
+P2_WP_0341,The Washington Post,2019-05-24,"Pelosi, Trump insults reflect jockeying for gains in 2020",,,417,P2,NEU,0.0126,0.4051,0.5822,-0.9007,0.068,0.081,0.851
+P2_WP_0343,The Washington Post,2019-05-24,Trump says farmers will receive $16 billion in aid,,,954,P2,NEU,0.0867,0.0036,0.9097,-0.1163,0.088,0.091,0.821
+P2_WP_0344,The Washington Post,2019-05-24,Stocks plunge amid U.S.- China  trade tensions,,,727,P2,NEG,0.0043,0.7542,0.2415,0.7768,0.071,0.059,0.87
+P2_WP_0345,The Washington Post,2019-05-24,GOP governors try to balance their ties with  China  with support for Trump,,,514,P2,NEU,0.0184,0.0105,0.9711,0.9794,0.098,0.069,0.833
+P2_WP_0346,The Washington Post,2019-05-24,"Senate passes disaster-aid bill, minus border funds",,,294,P2,NEU,0.2107,0.0032,0.7861,0.9139,0.078,0.058,0.863
+P2_WP_0347,The Washington Post,2019-05-24,Democrats should run toward foreign policy,,,839,P2,NEU,0.0133,0.0605,0.9262,0.9934,0.116,0.06,0.823
+P2_NYT_0350,The New York Times,2019-05-24,Farmers Stung By Trade Strife Get $16 Billion,"ANA SWANSON; Glenn Thrush, Alan Rappeport and Matt Phillips contributed reporting.",,705,P2,NEU,0.0167,0.0071,0.9762,-0.9782,0.054,0.087,0.859
+P2_NYT_0353,The New York Times,2019-05-24,DealBook Briefing: $16 Billion in Bailouts Says the  Trade War  Is Here to Stay,,,310,P2,NEU,0.0517,0.0094,0.9389,-0.9951,0.06,0.119,0.821
+P2_WP_0355,The Washington Post,2019-05-24,"In the heart of Trump Country, renewable energy is about to flourish",Gary Abernathy,,821,P2,NEU,0.0165,0.1676,0.8158,0.9971,0.123,0.049,0.828
+P2_WP_0356,The Washington Post,2019-05-24,The Daily 202: Trump keeps trying to pick winners and losers – from the bailout for farmers to a border wall contract,James Hohmann,,395,P2,NEU,0.0133,0.0516,0.9352,0.992,0.118,0.07,0.812
+P2_WP_0357,The Washington Post,2019-05-24,What makes Pete Buttigieg so effective,Jennifer Rubin,,786,P2,NEU,0.032,0.0057,0.9623,-0.9951,0.101,0.139,0.76
+P2_NYT_0358,The New York Times,2019-05-24,"Theresa May, Harvey Weinstein, Julian Assange: Your Friday Briefing",Chris Stanford,,670,P2,NEU,0.0239,0.004,0.9721,-0.9621,0.093,0.103,0.804
+P2_WP_0359,The Washington Post,2019-05-24,Farmers shouldn't matter more than the rest of us,Henry Olsen,,727,P2,NEU,0.1149,0.0068,0.8783,-0.9929,0.091,0.141,0.767
+P2_WP_0360,The Washington Post,2019-05-24,"Trump's  tariffs  could fizzle fireworks, an American tradition that's 95 percent made in  China",Taylor Telford,,514,P2,NEU,0.0166,0.0714,0.912,-0.9188,0.064,0.075,0.861
+P2_WP_0361,The Washington Post,2019-05-24,Trade war  deepens stock slump,— Bloomberg News,,251,P2,NEU,0.0087,0.1811,0.8103,-0.5994,0.0,0.1,0.9
+P2_WP_0362,The Washington Post,2019-05-24,"U.S. capital goods orders declined in April, another sign of slowing economy",,,686,P2,NEG,0.0045,0.8504,0.1452,-0.3822,0.055,0.057,0.888
+P2_WP_0363,The Washington Post,2019-05-24,Trump visits a Japan buffeted by U.S.  trade war  with  China,Simon Denyer;Akiko Kashiwagi,,108,P2,NEU,0.0201,0.0077,0.9722,-0.9847,0.088,0.118,0.794
+P2_NYT_0364,The New York Times,2019-05-24,"For Trump’s Japan Trip, Abe Piles on the Flattery. But to What End?",Katie Rogers and Motoko Rich,,524,P2,NEU,0.016,0.0072,0.9768,0.9941,0.104,0.048,0.848
+P2_PBS_0365,PBS NewsHour,2019-05-24,"PBS NewsHour for May 24, 2019",,,889,P2,NEU,0.0242,0.0041,0.9717,0.9701,0.084,0.056,0.861
+P2_NYT_0366,The New York Times,2019-05-24,Bailout for U.S. Farmers Hurt by  Trade War,,,121,P2,NEU,0.0074,0.2458,0.7468,-0.8271,0.0,0.219,0.781
+P2_NYT_0367,The New York Times,2019-05-24,Pain of  Tariffs  Tests Farmers’ Faith in Trump: ‘How Long Is Short-Term?’,Patricia Cohen,,545,P2,NEU,0.0102,0.0328,0.957,0.9962,0.126,0.059,0.815
+P2_MSNBC_0369,MSNBC,2019-05-24,"ALL IN WITH CHRIS HAYES for May 24, 2019, MSNBC",,,583,P2,NEU,0.0341,0.0033,0.9627,-0.9864,0.071,0.095,0.835
+P2_NYT_0370,The New York Times,2019-05-24,"Mario Draghi’s term as president of the European Central Bank ends in October. It has been a tumultuous tenure; among other things, he very clearly saved the euro from collapse in 2012-13, which arguably makes him the greatest central banker of modern times.",Paul Krugman,,688,P2,POS,0.8831,0.0023,0.1146,-0.577,0.144,0.141,0.715
+P2_FT_0371,Financial Times,2019-05-24,? Trump unveils $16bn farm [...],,,49,P2,NEU,0.0535,0.0074,0.939,0.0,0.0,0.0,1.0
+P2_FT_0372,Financial Times,2019-05-24,?  Chinese  spy group braced [...],,,48,P2,NEU,0.0116,0.0109,0.9775,0.0,0.0,0.0,1.0
+P2_FT_0373,Financial Times,2019-05-24,China 's new love for classical music,,,178,P2,NEU,0.1016,0.0029,0.8955,0.9865,0.078,0.013,0.909
+P2_FT_0374,Financial Times,2019-05-24,"Media outlets in China ramped up rhetoric against the US administration with the Chinese Communist party's flagship newspaper, the People's Daily, branding the US as the biggest ""troublemaker"" in the international community for triggering trade disputes.",,,422,P2,NEU,0.0087,0.2922,0.6991,-0.8487,0.056,0.08,0.864
+P2_FT_0375,Financial Times,2019-05-24,Tariff  war spurs boardroom rethink,,,902,P2,NEU,0.0143,0.0388,0.947,-0.7351,0.058,0.058,0.884
+P2_FT_0376,Financial Times,2019-05-24,"Best Buy/ tariffs : rising prices, fixed smiles",,,317,P2,NEU,0.0341,0.0248,0.9411,0.8074,0.186,0.0,0.814
+P2_FT_0377,Financial Times,2019-05-24,US eyes Hikvision for export blacklist,,,488,P2,NEU,0.0113,0.0152,0.9735,0.0,0.0,0.0,1.0
+P2_FT_0378,Financial Times,2019-05-24,Eurozone manufacturing declines amid trade angst,,,418,P2,NEU,0.0073,0.4431,0.5496,0.0,0.0,0.0,1.0
+P2_FT_0379,Financial Times,2019-05-24,Tyson eyes Kazakhstan's back door to  Chinese  beef market as  tariffs  hit sales,,,426,P2,NEU,0.0126,0.0183,0.9691,0.0,0.0,0.0,1.0
+P2_FT_0380,Financial Times,2019-05-24,Is private equity free market capitalism?,,,301,P2,NEU,0.0158,0.0076,0.9766,0.5106,0.096,0.0,0.904
+P2_FT_0382,Financial Times,2019-05-24,Tyson eyes Kazakh beef as route to  China,,,523,P2,NEU,0.0133,0.0094,0.9773,0.9657,0.059,0.022,0.919
+P2_FT_0383,Financial Times,2019-05-24,Ermotti forced to put UBS in fuel-saving mode,,,439,P2,NEU,0.0142,0.0787,0.907,0.9657,0.096,0.071,0.833
+P2_FT_0384,Financial Times,2019-05-24,Morgan Stanley chief defends handling of Uber listing,,,486,P2,NEU,0.0691,0.0038,0.9272,0.0,0.0,0.0,1.0
+P2_NYT_0388,The New York Times,2019-05-24,"Distorted Videos of Nancy Pelosi Spread on Facebook and Twitter, Helped by Trump",Sarah Mervosh,,266,P2,NEU,0.0142,0.0442,0.9416,-0.2303,0.071,0.077,0.852
+P2_WSJ_0389,The Wall Street Journal,2019-05-24,U.S.- China  Trade Fight Is New Worry for Lenovo --- Emerging risks could derail PC maker's strong run,Jacky Wong,,488,P2,NEU,0.0113,0.2863,0.7025,0.8689,0.068,0.052,0.879
+P2_WSJ_0390,The Wall Street Journal,2019-05-24,U.S. News: Trump's Point Man on  China  Trade Is Still Pushing to Get a Deal,William Mauldin,,811,P2,NEU,0.0151,0.0078,0.9771,0.9875,0.102,0.062,0.836
+P2_WSJ_0391,The Wall Street Journal,2019-05-24,Trade Snarl Spurs Aid to U.S. Farmers --- Trump offers Huawei as bargaining chip in conflict with  China ; $16 billion in relief plan,Josh Zumbrun and William Mauldin,,924,P2,NEU,0.0293,0.0124,0.9583,-0.9794,0.061,0.092,0.846
+P2_WSJ_0392,The Wall Street Journal,2019-05-24,Markets Hit As Trade Row Escalates --- Oil plummets and yield curve shifts as investors view conflict as worsening,Michael Wursthorn,,16,P2,NEU,0.0061,0.4605,0.5335,-0.583,0.065,0.076,0.859
+P2_WSJ_0393,The Wall Street Journal,2019-05-24,Streetwise: Time to Wake Up to the Realities of a U.S.- China  Split,James Mackintosh,,857,P2,NEU,0.0149,0.0163,0.9688,-0.9685,0.054,0.091,0.855
+P2_WSJ_0395,The Wall Street Journal,2019-05-24,Business News: Best Buy Rides Web Sales to Higher Profit,Khadeeja Safdar and Aisha Al-Muslim,,499,P2,NEU,0.1896,0.0029,0.8075,0.9962,0.142,0.037,0.82
+P2_NYT_0397,The New York Times,2018-11-05,"Iran Sanctions Explained: U.S. Goals, and the View From Tehran",Rick Gladstone,,464,P2,NEU,0.0165,0.0114,0.9721,0.6398,0.084,0.076,0.84
+P2_WP_0398,The Washington Post,2018-11-06,l A Nov. 4 Sports article about the Capital City Go-Go's home debut in the National Basketball Association's G League incorrectly said that NBA Commissioner Adam Silver left the game long before it ended. Silver stayed through the game.,,,180,P2,NEU,0.0081,0.1487,0.8431,0.885,0.097,0.03,0.873
+P2_WP_0399,The Washington Post,2018-11-06,"Xi says  China  will boost imports, while swiping at Trump's 'law of the jungle'",,,976,P2,NEU,0.0368,0.0088,0.9544,0.9963,0.136,0.067,0.797
+P2_NYT_0400,The New York Times,2018-11-06,"China 's Leader, Hogging Spotlight, Elbows Communist Titan Aside","STEVEN LEE MYERS; Jonathan Ansfield contributed reporting from Beijing. Olivia Mitchell Ryan contributed research from Shenzhen, and Claire Fu from Beijing and Guangzhou, China.",,367,P2,NEU,0.031,0.004,0.9651,0.8995,0.067,0.052,0.881
+P2_NYT_0403,The New York Times,2018-11-06,"Tariffs  Squeeze a Big Customer, But the Soybeans Keep Coming",BINYAMIN APPELBAUM,,816,P2,NEU,0.0207,0.0268,0.9524,0.9957,0.118,0.06,0.823
+P2_NYT_0404,The New York Times,2018-11-06,"Midterm Elections, Donald Trump, Amazon: Your Tuesday Briefing",Chris Stanford,,395,P2,NEU,0.0251,0.0043,0.9705,0.768,0.087,0.072,0.841
+P2_NYT_0405,The New York Times,2018-11-06,"DealBook Briefing: From Corporate America to  China , Everyone’s Braced for the Midterms",,,604,P2,NEU,0.1712,0.0022,0.8266,0.9927,0.114,0.056,0.83
+P2_WP_0406,The Washington Post,2018-11-06,"The Finance 202: The midterms won't shake up the economy, no matter who wins ; The trajectory is the same whether it's the status quo or a Democratic takeover.",Tory Newmyer,,58,P2,NEU,0.0254,0.028,0.9466,0.9555,0.083,0.066,0.851
+P2_WP_0407,The Washington Post,2018-11-06,Nigeria's army cited Trump's remarks to justify opening fire on protesters — then deleted the tweet,Rick Noack,,714,P2,NEU,0.0075,0.2974,0.6951,-0.9988,0.063,0.183,0.753
+P2_NYT_0408,The New York Times,2018-11-06,"U.S. Midterms, Germany, Ukraine: Your Tuesday Briefing",Penn Bullock,,384,P2,NEU,0.0197,0.0047,0.9757,-0.9761,0.048,0.079,0.873
+P2_NYT_0409,The New York Times,2018-11-06,China  Grants Ivanka Trump Initial Approval for New Trademarks,Austin Ramzy,,647,P2,NEU,0.0791,0.0025,0.9184,0.9911,0.123,0.053,0.824
+P2_FT_0410,Financial Times,2018-11-06,Delta sees ticket price rise as answer to higher fuel costs,,,617,P2,NEU,0.0248,0.082,0.8933,0.0,0.0,0.0,1.0
+P2_FT_0411,Financial Times,2018-11-06,Farmers say president risks reaping what he sows in spat with  China,,,889,P2,NEU,0.0087,0.201,0.7903,-0.9951,0.067,0.113,0.819
+P2_FT_0412,Financial Times,2018-11-06,Xi lashes out at 'law of the jungle' trade practices,,,653,P2,NEU,0.021,0.0063,0.9727,0.9944,0.132,0.058,0.81
+P2_FT_0413,Financial Times,2018-11-06,Ripples from  trade war  wash up on Asia-Pacific shores,,,668,P2,NEU,0.0141,0.0139,0.972,-0.9941,0.055,0.12,0.825
+P2_FT_0414,Financial Times,2018-11-06,Xi takes on US  tariffs  with 'winner takes all' jibe,,,111,P2,NEU,0.018,0.0113,0.9706,0.5859,0.098,0.0,0.902
+P2_NYT_0416,The New York Times,2018-11-06,Unafraid of the Gray Areas,TIFFANY HSU,,808,P2,NEU,0.0367,0.0033,0.96,-0.9887,0.05,0.091,0.859
+P2_WSJ_0417,The Wall Street Journal,2018-11-06,"World News: At Trade Fair, Xi Paints  China  as an Importer",James T. Areddy,,436,P2,NEU,0.0266,0.0046,0.9688,0.3182,0.049,0.0,0.951
+P2_WSJ_0418,The Wall Street Journal,2018-11-06,Iran Vows to 'Break' Sanctions As U.S. Reimposes Ban on Oil,Asa Fitch in Dubai and Ian Talley and Courtney McBride in Washington,,156,P2,NEU,0.0156,0.0082,0.9762,-0.9726,0.07,0.09,0.84
+P2_WP_0421,The Washington Post,2019-11-16,Trump's  trade war  general faces moment of truth,David J. Lynch,,961,P2,NEU,0.0182,0.0096,0.9722,0.9756,0.085,0.056,0.859
+P2_NYT_0422,The New York Times,2019-11-15,U.S. Said to Extend Reprieve for Huawei,Ana Swanson,,779,P2,NEU,0.0494,0.0032,0.9474,0.9767,0.103,0.064,0.834
+P2_WP_0423,The Washington Post,2019-11-16,Figures move higher on encouraging trade activity,,,657,P2,NEU,0.2625,0.0032,0.7342,0.9896,0.095,0.033,0.872
+P2_NYT_0424,The New York Times,2019-11-16,Trump Isn’t the First President to Make War on the Federal Reserve,Amity Shlaes,,268,P2,NEU,0.0202,0.0468,0.9331,0.811,0.109,0.101,0.79
+P2_FT_0425,Financial Times,2019-11-16,US property Boston is building skyward but demand has moved in the opposite direction. By Zoe Dare Hall,,,33,P2,NEU,0.0147,0.0819,0.9033,0.9793,0.073,0.045,0.882
+P2_FT_0426,Financial Times,2019-11-16,Five things I've learnt about saving the world,,,877,P2,NEU,0.0631,0.0057,0.9312,0.9276,0.067,0.057,0.876
+P2_FT_0427,Financial Times,2019-11-16,Trade wars send manufacturers scurrying home,,,834,P2,NEU,0.009,0.1694,0.8216,-0.5574,0.0,0.098,0.902
+P2_FT_0428,Financial Times,2019-11-16,Millionaire investors hoard cash piles,,,395,P2,NEU,0.0099,0.0575,0.9325,0.0,0.0,0.0,1.0
+P2_FT_0429,Financial Times,2019-11-16,Trump threatens to raise levies on [...],,,138,P2,NEG,0.0064,0.5903,0.4033,-0.3818,0.0,0.075,0.925
+P2_WSJ_0431,The Wall Street Journal,2019-11-16,REVIEW --- Innovation Should Be Made in the U.S.A. --- Offshoring by American companies has destroyed our manufacturing base and our capacity to develop new products and processes. It's time for a national industrial policy.,Sridhar Kota and Tom Mahoney,,185,P2,NEU,0.0187,0.1282,0.8531,0.997,0.129,0.047,0.825
+P2_WSJ_0432,The Wall Street Journal,2019-11-16,"Politics -- Election 2020: Trump's Path Runs Through Farm Belt --- In Minnesota, the president would need strong support from struggling rural voters to flip a state he narrowly lost in 2016",Kris Maher,,63,P2,NEU,0.0243,0.0098,0.9659,-0.889,0.065,0.084,0.851
+P2_NYT_0434,The New York Times,2018-09-25,"Corrections: September 25, 2018",,,360,P2,NEU,0.0227,0.0043,0.973,-0.4913,0.028,0.031,0.941
+P2_WP_0435,The Washington Post,2018-09-25,"U.S.,  China  face off with biggest  tariffs  yet",,,923,P2,NEU,0.018,0.0263,0.9557,-0.9668,0.08,0.105,0.815
+P2_WP_0436,The Washington Post,2018-09-25,Oil flows past $80 mark as Iran sanctions loom,,,612,P2,NEU,0.0282,0.0076,0.9642,0.7445,0.061,0.057,0.882
+P2_WP_0437,The Washington Post,2018-09-25,"For many in  China , the  trade war  isn't really about trade","trying to ""distort, smear and slander China's socialist market economic system,"" these critics were trying to shake public confidence in it ""and ultimately thwart China's development,"" it said.",,258,P2,NEU,0.0105,0.1703,0.8192,-0.9518,0.097,0.115,0.788
+P2_NYT_0438,The New York Times,2018-09-25,On Politics: Kavanaugh Says He Won’t Be ‘Intimidated’,,,518,P2,NEU,0.0756,0.0027,0.9218,0.8869,0.081,0.062,0.856
+P2_NYT_0440,The New York Times,2018-09-25,"An article on Monday about the possible impact that tariffs on Chinese goods might have on American tech and telecom companies misidentified the location of Nokia's headquarters. The company is based in Finland, not Sweden.",,,40,P2,NEU,0.0082,0.2878,0.704,0.0,0.0,0.0,1.0
+P2_NYT_0442,The New York Times,2018-09-25,U.S. and Korea Reach Revised Deal on Trade,JIM TANKERSLEY,,106,P2,NEU,0.3926,0.002,0.6054,0.9985,0.18,0.06,0.761
+P2_WP_0444,The Washington Post,2018-09-25,The Finance 202: Auto  tariffs  would vastly expand Trump's  trade war . A decision could come at any time. ; The move would double the value of goods subjected to  tariffs  in the U.S.,Tory Newmyer,,122,P2,NEU,0.0155,0.063,0.9215,0.7458,0.063,0.051,0.886
+P2_NYT_0445,The New York Times,2018-09-25,DealBook Briefing: Instagram’s Co-Founders Are Leaving,,,456,P2,NEU,0.0984,0.0063,0.8953,0.954,0.08,0.059,0.861
+P2_WP_0446,The Washington Post,2018-09-25,"Anatomy of a Trump rally: 70 percent of claims are false, misleading or lacking evidence",Glenn Kessler,,94,P2,NEU,0.007,0.2819,0.711,0.3404,0.074,0.073,0.853
+P2_WP_0447,The Washington Post,2018-09-25,China  says the U.S. is 'holding a knife to our neck' in  trade war,Anna Fifield,,975,P2,NEU,0.0083,0.1363,0.8554,0.9662,0.11,0.09,0.8
+P2_WP_0448,The Washington Post,2018-09-25,U.S. all but certain to miss weekend deadline to include Canada in three-way NAFTA deal,David J. Lynch;Damian Paletta;Erica Werner,,214,P2,NEU,0.0139,0.0308,0.9553,0.9932,0.116,0.058,0.826
+P2_WP_0449,The Washington Post,2018-09-25,Trump is the laughingstock of the world,Dana Milbank,,824,P2,NEG,0.0116,0.6916,0.2968,-0.874,0.122,0.132,0.746
+P2_NYT_0451,The New York Times,2018-09-25,China  Rejects U.S. Warship’s Visit to Hong Kong as Tensions Rise,Steven Lee Myers,,846,P2,NEU,0.0074,0.3285,0.664,-0.9645,0.06,0.083,0.857
+P2_NYT_0452,The New York Times,2018-09-25,Trump to  China : ‘I Own You.’ Guess Again.,Thomas L. Friedman,,438,P2,NEU,0.0215,0.006,0.9725,0.9878,0.08,0.035,0.885
+P2_FT_0453,Financial Times,2018-09-25,"At the UN, America first becomes America alone","the time last year's general assembly was held, Mr Trump had already set off on his own course. He had pulled out of the UN's Paris accord on climate change. His Twitter sparring with North Korean leader Kim Jong Un was inflaming tensions on the Korean peninsula. But there was room for relief that he had only carried out some of the threats he had issued on the campaign trail. The Iran nuclear deal was still intact, and there was as yet no global trade war. There was even some residual hope that Mr Trump might settle into a more conventional foreign policy.",,627,P2,NEU,0.0195,0.125,0.8555,-0.6124,0.066,0.098,0.835
+P2_FT_0454,Financial Times,2018-09-25,China 's  trade war  with US turns up heat on tech sector,,,773,P2,NEU,0.0199,0.0099,0.9701,0.9818,0.077,0.039,0.884
+P2_FT_0455,Financial Times,2018-09-25,Buoyant American groups drive $50bn global dealmaking spree,,,602,P2,NEU,0.0229,0.0052,0.9719,0.2263,0.045,0.0,0.955
+P2_FT_0456,Financial Times,2018-09-25,?  Trade war  poses threat [...],,,45,P2,NEG,0.0052,0.5515,0.4434,-0.8074,0.0,0.196,0.804
+P2_FT_0457,Financial Times,2018-09-25,China  and India lead the surge to solar,,,693,P2,NEU,0.0355,0.0052,0.9593,0.9659,0.072,0.032,0.897
+P2_FT_0458,Financial Times,2018-09-25,"Gains for the oil stocks were not enough to keep the FTSE 100 in positive territory, with the index retreating in response to China's move against US threats to extend tariffs. Testing specialist Intertek, a proxy for global trade tensions, had its worst session in six weeks.",,,202,P2,NEU,0.0187,0.2374,0.7439,0.9041,0.152,0.103,0.745
+P2_NYT_0459,The New York Times,2018-09-25,"Your Tuesday News Briefing: Rod Rosenstein , Labour, General Assembly",Penn Bullock,,465,P2,NEU,0.0202,0.0047,0.9751,0.7905,0.086,0.072,0.842
+P2_NYT_0460,The New York Times,2018-09-25,Qualcomm Accuses Apple of Stealing Secrets to Help Intel,Don Clark,,637,P2,NEU,0.01,0.1095,0.8805,-0.9822,0.077,0.124,0.799
+P2_WSJ_0461,The Wall Street Journal,2018-09-25,Palladium Leads a Rebound in Metals,Amrith Ramkumar,,616,P2,NEU,0.0178,0.0073,0.9749,0.991,0.09,0.023,0.887
+P2_WSJ_0462,The Wall Street Journal,2018-09-25,"Republicans rallied around embattled Supreme Court nominee Kavanaugh, vowing to push his confirmation through the Senate even as a new allegation of sexual misconduct emerged.",,,216,P2,NEU,0.0224,0.0164,0.9612,-0.9472,0.067,0.128,0.805
+P2_WSJ_0463,The Wall Street Journal,2018-09-25,World News: U.S. Exemptions on  Chinese  Imports Reveal Vulnerabilities,Chuin-Wei Yap,,858,P2,NEU,0.0138,0.0404,0.9459,0.9518,0.061,0.038,0.9
+P2_WSJ_0464,The Wall Street Journal,2018-09-25,Dozens of Stocks Feel  Tariff  Bite,Michael Wursthorn and Akane Otani,,537,P2,NEU,0.0106,0.0222,0.9672,0.0,0.0,0.0,1.0
+P2_WSJ_0465,The Wall Street Journal,2018-09-25,U.S. Seeks Trade Pacts as  China  Balks,Jacob M. Schlesinger in Washington and Vivian Salama in New York,,147,P2,NEU,0.0152,0.0061,0.9787,0.9514,0.073,0.053,0.874
+P2_WSJ_0466,The Wall Street Journal,2018-09-25,"Dow Drops as Trade Hopes Fade --- Stocks of industrial companies, vulnerable to  tariffs , are among day's biggest decliners",Christopher Whittall and Akane Otani,,581,P2,NEU,0.0084,0.4511,0.5405,0.9525,0.069,0.035,0.896
+P3_NYT_0468,The New York Times,2020-04-13,"Global Trade Sputters, Leaving Too Much Here, Too Little There",Ana Swanson,,983,P3,NEU,0.0101,0.1639,0.826,-0.9748,0.037,0.077,0.886
+P3_FT_0469,Financial Times,2020-04-13,WeWork's lessons for US real estate,,,937,P3,NEU,0.0222,0.0054,0.9724,0.0,0.0,0.0,1.0
+P3_WSJ_0471,The Wall Street Journal,2020-04-13,5G: What's Next (A Special Report) --- The U.S. vs.  China : Who's Winning The Key High-Tech Battles? 5G. Quantum computing. AI. Autonomous cars. Semiconductors. How the countries compare in these crucial areas of innovation.,Asa Fitch and Stu Woo,,390,P3,NEU,0.0349,0.0037,0.9614,0.8993,0.097,0.076,0.827
+P3_WSJ_0472,The Wall Street Journal,2020-04-13,"As social-distancing requirements curbed Easter celebrations around the world, officials warned that early signs of success in slowing the spread of the coronavirus shouldn't mean a quick lifting of lockdown orders.",,,201,P3,NEU,0.0234,0.1116,0.8651,0.0,0.091,0.091,0.818
+P3_WSJ_0473,The Wall Street Journal,2020-04-13,World News:  Beijing  Offers Tax Breaks for Exports of Some Wild Animals,Kate O'Keeffe and Eva Xiao,,451,P3,NEU,0.0186,0.0088,0.9726,0.0,0.0,0.0,1.0
+P3_WSJ_0474,The Wall Street Journal,2020-04-13,The Coronavirus Pandemic:  Tariffs  Exacerbate Hand Sanitizer Shortages,Katy Stech Ferek and Josh Zumbrun,,404,P3,NEU,0.0061,0.368,0.6259,0.3818,0.062,0.031,0.907
+P3_NYT_0476,The New York Times,2020-08-19,Small-business owners speak on the coronavirus’s devastating economic toll.,Reid J. Epstein,,115,P3,NEU,0.011,0.0727,0.9163,-0.6486,0.0,0.095,0.905
+P3_NYT_0477,The New York Times,2020-08-20,U.S. Presses  China  Further Over Actions In Hong Kong,Pranshu Verma,,714,P3,NEU,0.0166,0.0053,0.9781,-0.3797,0.064,0.067,0.869
+P3_WP_0478,The Washington Post,2020-08-20,The Finance 202: Trump's call for Goodyear boycott joins long history of bullying companies that cross him,Tory Newmyer,,978,P3,NEU,0.0072,0.3986,0.5943,0.6063,0.11,0.109,0.781
+P3_WP_0479,The Washington Post,2020-08-20,Trump Biden  China  election Cold War,Eva Dou;Gerry Shih,,17,P3,NEU,0.0206,0.0088,0.9706,0.9846,0.128,0.081,0.79
+P3_NYT_0481,The New York Times,2020-12-19,The World Is Full of Challenges. Here’s How Biden Can Meet Them.,Robert M. Gates,,231,P3,NEU,0.0365,0.0071,0.9564,0.9969,0.14,0.051,0.808
+P3_NYT_0482,The New York Times,2020-12-19,The W.T.O. Is Having a Midlife Crisis,Farah Stockman,,266,P3,NEU,0.0078,0.1696,0.8226,0.9147,0.126,0.11,0.763
+P3_FT_0483,Financial Times,2020-12-19,Why it is time to remake the case for a liberal international order. By Gideon Rachman,,,900,P3,NEU,0.0436,0.0058,0.9506,0.9671,0.088,0.057,0.855
+P3_WP_0485,The Washington Post,2020-02-02,Stocks plunge on slowing growth and coronavirus fears,,,33,P3,NEG,0.0066,0.5217,0.4717,-0.9269,0.074,0.091,0.834
+P3_WP_0486,The Washington Post,2020-02-02,I'm the mayor of a large college town. I'm not ready to be president.,,,158,P3,NEG,0.0084,0.632,0.3596,0.1588,0.06,0.046,0.894
+P3_NYT_0487,The New York Times,2020-02-02,Modi's Budget Offers Few Remedies for Economy,Karan Deep Singh,,878,P3,NEU,0.0142,0.0787,0.9072,-0.9954,0.053,0.122,0.825
+P3_NYT_0488,The New York Times,2020-02-02,The Graying of the American Economy Is on Display in Iowa,"Dionne Searcey, Alan Rappeport, Trip Gabriel and Robert Gebeloff",,543,P3,NEU,0.0166,0.0063,0.9771,0.943,0.071,0.047,0.882
+P3_NYT_0489,The New York Times,2020-02-02,Can Democrats Beat Trump in Iowa in November?,Trip Gabriel and Jeremy W. Peters,,863,P3,NEU,0.2556,0.0026,0.7418,0.9826,0.073,0.038,0.888
+P3_NYT_0491,The New York Times,2020-02-02,The Week in Business: Coronavirus Hits the World Economy,Charlotte Cowles,,936,P3,NEU,0.0148,0.0114,0.9737,-0.9162,0.098,0.11,0.792
+P3_WP_0493,The Washington Post,2020-02-23,"For Trump in India, politics, policy and the promise of his biggest rally yet","the time Trump spoke at a 'Keep America Great' rally in Colorado on Thursday, the promised crowd had grown.",,689,P3,NEU,0.4598,0.0023,0.5379,0.9977,0.125,0.028,0.846
+P3_NYT_0495,The New York Times,2020-07-01,Business Embraces Hong Kong’s Security Law. The Money Helps.,Alexandra Stevenson,,558,P3,NEU,0.0447,0.0044,0.9509,0.9939,0.112,0.053,0.835
+P3_NYT_0496,The New York Times,2020-07-01,The West Is Split on  China . It Needs to Come Together.,Jochen Bittner,,20,P3,NEU,0.024,0.005,0.9709,0.9906,0.128,0.087,0.785
+P3_NYT_0497,The New York Times,2020-07-01,"It’s July 4, but the Firework Shows Won’t Go On",Julie Creswell,,319,P3,NEU,0.0138,0.0686,0.9176,0.9794,0.077,0.045,0.879
+P3_FT_0498,Financial Times,2020-07-01,India's retaliatory strike at  Chinese  coffers threatens to backfire,,,712,P3,NEU,0.0064,0.2473,0.7462,-0.9542,0.056,0.088,0.856
+P3_WSJ_0499,The Wall Street Journal,2020-07-01,Markets Review & Outlook: Second Quarter: Dollar's Volatility Turns Into Calm,Caitlin Ostroff,,920,P3,NEU,0.0506,0.0031,0.9464,0.9834,0.104,0.07,0.827
+P3_WP_0501,The Washington Post,2020-07-22,"Mark Cuban, Ted Cruz spar over BLM, coronavirus and  China",Des Bieler,,215,P3,NEU,0.033,0.0042,0.9628,-0.8233,0.093,0.102,0.805
+P3_WP_0502,The Washington Post,2020-07-22,Japan helps firms break from  China  to deter overreliance,,,909,P3,NEU,0.0187,0.0097,0.9716,-0.4203,0.043,0.048,0.909
+P3_WP_0503,The Washington Post,2020-07-22,Caught in a South  China  Sea standoff,,,137,P3,NEU,0.0204,0.0121,0.9674,-0.8053,0.06,0.069,0.871
+P3_NYT_0504,The New York Times,2020-07-22,"The Pandemic Isn’t Bringing Back Factory Jobs, at Least Not Yet",Ana Swanson and Jim Tankersley,,784,P3,NEU,0.0139,0.0727,0.9134,-0.8313,0.086,0.098,0.816
+P3_PBS_0505,PBS NewsHour,2020-07-22,"PBS NewsHour for July 22, 2020",,,81,P3,NEU,0.0192,0.0049,0.9759,0.3441,0.063,0.062,0.875
+P3_NYT_0506,The New York Times,2020-07-22,How the Cold War Between  China  and U.S. Is Intensifying,Rick Gladstone,,384,P3,NEU,0.0172,0.0058,0.977,-0.9976,0.065,0.146,0.788
+P3_NYT_0507,The New York Times,2020-07-22,"Tesla earned $104 million in the second quarter, surprising analysts.",Neal E. Boudette,,408,P3,POS,0.5866,0.0034,0.41,0.2732,0.048,0.0,0.952
+P3_WSJ_0508,The Wall Street Journal,2020-07-22,China 's Residential Market Signals Uncertainty,Jonathan Cheng,,716,P3,NEU,0.0138,0.008,0.9783,-0.34,0.0,0.059,0.941
+P3_WP_0510,The Washington Post,2020-06-02,The Finance 202: Millions of Americans are poised to exhaust coronavirus economic relief,Tory Newmyer,,943,P3,NEU,0.014,0.4149,0.5711,-0.9808,0.087,0.12,0.793
+P3_WP_0511,The Washington Post,2020-06-02,"Trump takes step that could expand his  trade war , targeting the way other countries treat U.S. tech firms",David J. Lynch,,846,P3,NEU,0.016,0.068,0.916,-0.8605,0.071,0.084,0.845
+P3_FT_0512,Financial Times,2020-06-02,Hang Seng in best day for two months after Sino-US frictions are brushed off,,,418,P3,NEU,0.1914,0.0038,0.8047,-0.6132,0.095,0.093,0.813
+P3_NYT_0513,The New York Times,2020-06-02,Trump Administration Escalates Global Fight Over Taxing Tech,Jim Tankersley and Ana Swanson,,113,P3,NEU,0.0168,0.0292,0.954,0.9659,0.075,0.044,0.88
+P3_WSJ_0514,The Wall Street Journal,2020-06-02,Manufacturing Data Drive Stocks,Alexander Osipovich and Anna Isaac,,732,P3,NEU,0.3904,0.0023,0.6073,-0.9649,0.069,0.088,0.844
+P3_NYT_0516,The New York Times,2020-03-23,Confrontation Is Winning Out Over Cooperation in Face of a Pandemic,"Michael Crowley, Edward Wong and Lara Jakes",,851,P3,NEU,0.0577,0.0072,0.935,-0.9908,0.075,0.114,0.811
+P3_NYT_0517,The New York Times,2020-03-23,"The U.S. Needs  China ’s Masks, as Acrimony Grows",Keith Bradsher and Ana Swanson,,419,P3,NEU,0.0219,0.0046,0.9735,0.3723,0.073,0.064,0.862
+P3_NYT_0518,The New York Times,2020-03-23,Trump Administration Gives Apple More  Tariff  Relief,Jack Nicas,,351,P3,NEU,0.2404,0.0041,0.7556,0.5233,0.084,0.0,0.916
+P3_FT_0519,Financial Times,2020-03-23,Global economic forecasts grim as  China  rebound remains distant and BoE looks at negative rates,,,805,P3,NEU,0.0098,0.1111,0.8791,-0.9961,0.071,0.131,0.799
+P3_NYT_0520,The New York Times,2020-03-23,‘Our Industry Will Fail’: Retail Leaders Ask for Emergency Aid,Vanessa Friedman and Sapna Maheshwari,,382,P3,NEU,0.0078,0.2766,0.7156,-0.9808,0.048,0.075,0.877
+P3_WSJ_0521,The Wall Street Journal,2020-03-23,The Coronavirus Pandemic: U.S. Pullout of  China  Staff Cripples Ties at a Key Moment,Julie Wernau,,665,P3,NEU,0.0095,0.0382,0.9523,-0.8896,0.038,0.054,0.907
+P3_WP_0523,The Washington Post,2020-05-12,"U.S.,  China  step up fight over media",,,42,P3,NEU,0.009,0.0656,0.9255,-0.9917,0.086,0.135,0.779
+P3_NYT_0524,The New York Times,2020-05-12,The Era of Offshoring U.S. Jobs Is Over,Robert E. Lighthizer,,174,P3,NEU,0.0169,0.036,0.947,0.9946,0.157,0.097,0.745
+P3_NYT_0525,The New York Times,2020-05-12,Lesser Powers Link Up to Fill A Global Void,Damien Cave and Isabella Kwai,,808,P3,NEU,0.019,0.0053,0.9757,-0.9896,0.075,0.114,0.812
+P3_WP_0527,The Washington Post,2020-05-12,The Daily 202: Governors who raced to relax coronavirus restrictions pay a price in new poll,James Hohmann,,230,P3,NEU,0.0119,0.0236,0.9646,-0.4533,0.069,0.067,0.865
+P3_WP_0528,The Washington Post,2020-05-12,"Bristling at calls for coronavirus inquiry,  China  cuts Australian beef imports",Gerry Shih,,964,P3,NEU,0.0153,0.0305,0.9542,-0.936,0.045,0.067,0.888
+P3_NYT_0530,The New York Times,2020-11-28,How Steve Bannon and a  Chinese  Billionaire Created a Right-Wing Coronavirus Media Sensation,"Amy Qin, Vivian Wang and Danny Hakim",,205,P3,NEU,0.0123,0.0157,0.972,0.5647,0.083,0.076,0.841
+P3_FT_0533,Financial Times,2020-11-28,Beijing  steps up  tariffs  on Australian wine,,,527,P3,NEU,0.0174,0.0092,0.9735,-0.9476,0.033,0.067,0.9
+P3_FT_0534,Financial Times,2020-11-28,China  crackdown on Australia coking coal imports sends prices down 25%,,,499,P3,NEU,0.0093,0.3507,0.64,0.0,0.0,0.0,1.0
+P3_WSJ_0535,The Wall Street Journal,2020-11-28,"China imposed antidumping tariffs on Australian wine, escalating a monthslong trade dispute and forcing local vintners to seek other markets for millions of bottles during a pandemic.",,,378,P3,NEU,0.0065,0.3872,0.6063,-0.954,0.066,0.112,0.822
+P3_WSJ_0536,The Wall Street Journal,2020-11-28,Politics: Washington Wire --- Dispatches from the Nation's Capital,Gabriel T. Rubin,,883,P3,NEU,0.0159,0.0063,0.9778,0.0,0.0,0.0,1.0
+P3_WP_0538,The Washington Post,2020-10-09,Breaking the tools of U.S. foreign policy,,,906,P3,NEU,0.0137,0.0094,0.9769,0.9967,0.137,0.064,0.799
+P3_NYT_0539,The New York Times,2020-10-09,The Trump administration adds  tariffs  on nearly $2 billion of imported aluminum.,Ana Swanson,,381,P3,NEU,0.0123,0.1432,0.8445,0.0,0.0,0.0,1.0
+P3_WP_0540,The Washington Post,2020-10-09,"Just when we need a drink, the U.S. wine industry faces an existential threat",Tim Carl,,465,P3,NEU,0.0101,0.2206,0.7693,-0.9986,0.034,0.15,0.815
+P3_WP_0541,The Washington Post,2020-10-09,"'It's too little, too late.' Trump's push to give federal aid to crucial 2020 voting blocs undermined by uneven execution",Jeff Stein,,796,P3,NEG,0.0053,0.5216,0.4731,-0.9875,0.054,0.091,0.855
+P3_FT_0542,Financial Times,2020-10-09,Why the US elite changed tune on  China,,,376,P3,NEU,0.0181,0.0061,0.9758,0.8946,0.068,0.042,0.889
+P3_NYT_0544,The New York Times,2020-10-30,Forget the Polls: This  Chinese  Indicator Is Flashing ‘Trump’,Keith Bradsher,,257,P3,NEU,0.0196,0.0554,0.925,0.546,0.066,0.066,0.868
+P3_WP_0546,The Washington Post,2020-10-30,The biggest Pinocchios of Election 2020,Glenn Kessler,,56,P3,NEU,0.0155,0.0123,0.9722,-0.9911,0.063,0.108,0.829
+P3_NYT_0547,The New York Times,2020-10-30,"Time Running Short, Trump and Biden Return to Northern Battlegrounds",Thomas Kaplan and Annie Karni,,823,P3,NEU,0.0279,0.0064,0.9657,-0.379,0.067,0.071,0.863
+P3_FT_0548,Financial Times,2020-10-30,Americans are still internationalists at heart,,,757,P3,NEU,0.0139,0.0278,0.9582,0.6369,0.113,0.0,0.887
+P3_FT_0549,Financial Times,2020-10-30,China  aims for 'self-sufficiency' in tech sectors,,,338,P3,NEU,0.1048,0.0026,0.8926,0.0,0.0,0.0,1.0
+P3_WSJ_0551,The Wall Street Journal,2020-10-30,World News:  Beijing 's Economic Plan Looks Inward,Lingling Wei,,479,P3,NEU,0.0261,0.004,0.9699,0.0,0.0,0.0,1.0
+P3_WP_0553,The Washington Post,2020-09-10,"Biden and Trump battle in the Rust Belt, each excusing his own record",Sean Sullivan;Jeff Stein,,389,P3,NEU,0.0446,0.0062,0.9491,0.9588,0.086,0.066,0.848
+P3_NYT_0556,The New York Times,2020-09-10,Surging Euro Presents E.C.B. With a Dilemma,Jack Ewing,,959,P3,NEU,0.0131,0.0617,0.9252,-0.854,0.089,0.095,0.815
+P3_WP_0557,The Washington Post,2020-09-10,"Trump's lead over Biden on the economy appears vulnerable, a potential turning point",Heather Long;Jeff Stein,,909,P3,NEU,0.0992,0.0202,0.8807,0.7694,0.077,0.066,0.857
+P3_FT_0558,Financial Times,2020-09-10,No-deal Brexit for a bruised economy?,"some industry estimates, which ministers do not dispute, as many as 50,000 people could find new work as customs agents, facilitating trade between Britain and the EU under new Brexit arrangements. This army of form-fillers could soon start to rival the actual British Army in size.",,500,P3,NEU,0.0676,0.0592,0.8732,0.9005,0.066,0.051,0.883
+P3_FT_0559,Financial Times,2020-09-10,Biden vows to bring US jobs home as Trump's  China  'decoupling' falls flat,,,398,P3,NEU,0.1008,0.0391,0.8601,0.0,0.0,0.0,1.0
+P3_FT_0560,Financial Times,2020-09-10,Biden pledges to bring jobs back to US,,,555,P3,NEU,0.3676,0.0029,0.6295,0.9913,0.093,0.023,0.884
+P3_WSJ_0561,The Wall Street Journal,2020-09-10,Streetwise: Tech Investors Should Worry About What Happens After Lockdown Ends,James Mackintosh,,802,P3,NEU,0.0097,0.0771,0.9132,-0.4404,0.0,0.063,0.937
+P4_NYT_0564,The New York Times,2021-04-11,My Family’s Global Vaccine Journey,Pui-Wing Tam,,564,P4,NEU,0.021,0.0048,0.9741,0.3177,0.074,0.079,0.848
+P4_WP_0566,The Washington Post,2021-08-03,"Fifty years later, Nixon's 'August surprise' still reverberates",Charles Lane,,861,P4,NEU,0.0266,0.0258,0.9476,-0.9177,0.11,0.119,0.771
+P4_WP_0568,The Washington Post,2022-08-20,"Biden's imprint on economy emerges, although inflation threatens wins",Jeff Stein,,708,P4,POS,0.5301,0.0044,0.4654,0.2846,0.095,0.084,0.822
+P4_NYT_0570,The New York Times,2021-11-30,Trump’s Iran Policy Has Become a Disaster for the U.S. and Israel,Thomas L. Friedman,,656,P4,NEU,0.0077,0.3339,0.6584,0.8192,0.087,0.076,0.836
+P4_NYT_0571,The New York Times,2021-12-01,Biden's Security Adviser Looks To Regroup After Stormy Year,Mark Leibovich,,882,P4,NEU,0.0174,0.0064,0.9762,0.9179,0.083,0.057,0.86
+P4_WP_0574,The Washington Post,2022-02-17,An alleged  Chinese  interference plot stirs fears — and smears — ahead of Australian elections,Michael E. MillerFrances Vinall,,527,P4,NEU,0.0066,0.2454,0.748,0.7905,0.111,0.097,0.792
+P4_WP_0577,The Washington Post,2021-02-28,U.S. allies hedge bets after era of Trumpism,,,742,P4,NEU,0.0152,0.2093,0.7756,0.9993,0.193,0.044,0.763
+P4_NYT_0579,The New York Times,2022-01-06,Bringing manufacturing back to U.S. shores may be at ‘a tipping point.’,,,395,P4,NEU,0.0117,0.0543,0.9341,0.0,0.0,0.0,1.0
+P4_NYT_0580,The New York Times,2022-01-06,"Google Infringed on Sonos Speaker Technology, Trade Court Rules",Daisuke Wakabayashi,,900,P4,NEU,0.0074,0.1181,0.8745,0.5764,0.062,0.052,0.886
+P4_NYT_0581,The New York Times,2022-01-06,Jan. 6 Looks Different Through the Lens of ‘American Carnage’,Sohrab Ahmari,,289,P4,NEU,0.0259,0.0045,0.9696,0.9909,0.103,0.058,0.838
+P4_NYT_0583,The New York Times,2022-06-11,Installing Rooftop Solar Can Be a Breeze. Just Look at Australia.; Guest Essay,Saul Griffith,,69,P4,NEU,0.0469,0.0057,0.9474,0.9988,0.145,0.019,0.836
+P4_NYT_0585,The New York Times,2022-06-11,Howard Schultz: Starbucks Is Battling for the ‘Hearts and Minds’ of Workers,Andrew Ross Sorkin,,323,P4,NEU,0.0536,0.0047,0.9416,0.979,0.092,0.063,0.846
+P4_FT_0586,Financial Times,2022-06-11,Former Nato chief calls for mutual pledge on economic coercion,,,480,P4,NEU,0.062,0.0042,0.9338,0.6862,0.072,0.053,0.876
+P4_WP_0588,The Washington Post,2021-06-28,Debt forgiveness for Black farmers is clearly constitutional,Mekela Panditharatne,,104,P4,NEU,0.0828,0.0043,0.9129,0.9716,0.112,0.082,0.806
+P4_WP_0590,The Washington Post,2022-03-25,Bayer settles with Ohio over PCB case,,,690,P4,NEU,0.011,0.0233,0.9657,0.9525,0.095,0.066,0.839
+P4_NYT_0592,The New York Times,2022-05-06,Solar Industry ‘Frozen’ as Biden Administration Investigates  China,David Gelles,,797,P4,NEU,0.0067,0.4419,0.5514,0.6798,0.082,0.075,0.843
+P4_MSNBC_0593,MSNBC,2022-05-06,"MEET THE PRESS DAILY for May 6, 2022, MSNBC",,,506,P4,NEU,0.0211,0.0049,0.974,0.9699,0.075,0.038,0.886
+P4_FT_0594,Financial Times,2022-05-06,Samsung faces mounting pressure on emissions,,,897,P4,NEU,0.0178,0.0266,0.9557,0.9926,0.106,0.052,0.843
+P4_WSJ_0595,The Wall Street Journal,2022-05-06,Filing Throws Solar Market Into Chaos,Phred Dvorak and Katherine Blunt,,792,P4,NEU,0.0129,0.0288,0.9582,-0.964,0.033,0.061,0.906
+P4_NYT_0597,The New York Times,2021-05-17,Diplomacy deadlock in Israel.,Whet Moser and Natasha Frost,,368,P4,NEG,0.004,0.7453,0.2508,-0.9976,0.039,0.126,0.835
+P4_FT_0598,Financial Times,2021-05-17,Geopolitics spells the demise of the global chief executive,,,663,P4,NEG,0.0057,0.7156,0.2787,0.0,0.0,0.0,1.0
+P4_NYT_0599,The New York Times,2021-05-17,U.S. and Europe Seek to End Trump-Era Dispute Over Steel and Aluminum,Jack Ewing,,923,P4,NEU,0.0309,0.0047,0.9644,0.9894,0.115,0.076,0.809
+P4_WP_0601,The Washington Post,2021-10-20,"Allies both cautious, confident about Biden",,,786,P4,NEU,0.0319,0.0097,0.9583,0.9704,0.099,0.073,0.828
+P4_FT_0602,Financial Times,2021-10-20,US political and business elites no longer agree on  China,,,803,P4,NEU,0.008,0.2438,0.7482,-0.5122,0.0,0.107,0.893
+P4_FT_0603,Financial Times,2021-10-20,"Supply chain woes to carry on for months, warns WTO chief",,,330,P4,NEG,0.0048,0.6168,0.3785,-0.5106,0.0,0.104,0.896
+P4_WSJ_0604,The Wall Street Journal,2021-10-20,Power Crisis Has  China  Seeing Green --- Measures triggered by blackouts could help drive next phase of country's renewable-energy build-out,Jacky Wong,,488,P4,NEU,0.051,0.005,0.944,-0.34,0.047,0.071,0.882
+P4_WSJ_0605,The Wall Street Journal,2021-10-20,Trade Figures Flash Brexit Warning --- U.K.'s post-pandemic recovery is hit as separation takes hold,Jason Douglas,,29,P4,NEU,0.0085,0.0845,0.907,-0.9922,0.034,0.089,0.877
+P4_FT_0607,Financial Times,2021-09-14,OECD seeks to avert trade wars with global scheme for setting carbon price,,,426,P4,NEU,0.0566,0.0043,0.9391,-0.6486,0.0,0.117,0.883
+P4_FT_0608,Financial Times,2021-09-14,Supply chain woes trigger troubling winds of stagflation,,,765,P4,NEU,0.0067,0.297,0.6963,-0.9142,0.072,0.092,0.836
+P4_NYT_0609,The New York Times,2021-09-14,Biden Urges Climate Action: ‘We Don’t Have Much More Than 10 Years’,Zolan Kanno-Youngs and Jim Tankersley,,243,P4,NEU,0.0292,0.0124,0.9584,0.8255,0.108,0.103,0.789
+P4_WSJ_0610,The Wall Street Journal,2021-09-14,American Global Leadership Is in Retreat,Walter Russell Mead,,793,P4,NEU,0.0166,0.0062,0.9771,0.2023,0.043,0.0,0.957
+P5_WP_0612,The Washington Post,2023-08-22,"Even if Mr. Trump is absent, there's still plenty to debate",,,627,P5,NEU,0.03,0.0101,0.9598,0.9828,0.134,0.093,0.773
+P5_NYT_0614,The New York Times,2023-08-22,Transcript: Rogé Karma Interviews Meghan O’Sullivan and Jason Bordoff,,,79,P5,NEU,0.0339,0.003,0.963,0.9964,0.094,0.019,0.887
+P5_NYT_0615,The New York Times,2023-08-22,BRICS Meeting Attracts Global Interest Not Seen in Years,Lynsey Chutel,,640,P5,NEU,0.2878,0.0026,0.7097,0.6908,0.13,0.0,0.87
+P5_WP_0616,The Washington Post,2023-08-22,Trump promised this Wisconsin town a manufacturing boom. It never arrived.,Jeanne Whalen,,290,P5,NEU,0.0106,0.3022,0.6872,0.9975,0.123,0.037,0.841
+P5_NYT_0618,The New York Times,2024-08-24,Can the G.O.P. Really Become the Party of Workers?,Noam Scheiber,,263,P5,NEU,0.0454,0.0114,0.9432,0.9965,0.118,0.043,0.839
+P5_FT_0619,Financial Times,2024-08-24,US national security adviser Sullivan set for first  China  trip,,,425,P5,NEU,0.0225,0.0043,0.9732,0.34,0.058,0.0,0.942
+P5_FT_0620,Financial Times,2024-08-24,China  dairy probe escalates trade spat after EU increases EV  tariffs,,,122,P5,NEU,0.0081,0.1678,0.8241,0.0,0.0,0.0,1.0
+P5_WSJ_0621,The Wall Street Journal,2024-08-24,China 's Exports Squeeze Businesses Worldwide ---  Beijing  ramps up production of goods headed overseas,Lingling Wei and Jason Douglas,,80,P5,NEU,0.013,0.0215,0.9655,0.8884,0.064,0.051,0.885
+P5_NYT_0623,The New York Times,2023-12-06,E.U. Relaxes Trade Rules on Electric Cars From Britain,"Stanley Reed                   <p>Stanley Reed reports on energy, the environment and the Middle East from London. He has been a journalist for more than four decades.</p>",,475,P5,NEU,0.0732,0.0028,0.9239,0.6562,0.052,0.046,0.903
+P5_NYT_0624,The New York Times,2023-12-06,Addressing the Tensions Between  China  and the Rest of the World,"Ravi Mattu                   <p>Ravi Mattu is the managing editor of DealBook, based in London. He joined The New York Times in 2022 from the Financial Times, where he held a number of senior roles in Hong Kong and London.</p>",,288,P5,NEU,0.0168,0.0064,0.9768,0.9986,0.148,0.034,0.818
+P5_NYT_0625,The New York Times,2023-12-06,"The Clock is Ticking on Improving  China -U.S. Relations, Experts Say",Leslie Wayne,,554,P5,NEU,0.144,0.0024,0.8537,0.996,0.098,0.027,0.875
+P5_FT_0626,Financial Times,2023-12-06,Electric car  tariffs  between UK and EU face three-year delay as Brussels relents,,,416,P5,NEU,0.0106,0.0793,0.9101,-0.3182,0.0,0.052,0.948
+P5_NYT_0628,The New York Times,2025-01-18,A New Age of American Interference in Europe,Katrin Bennhold,,641,P5,NEU,0.0122,0.1404,0.8474,0.9874,0.078,0.04,0.882
+P5_WP_0629,The Washington Post,2025-01-18,Starting Monday: The Trump administration's days of blunder,Dana Milbank,,505,P5,NEU,0.0123,0.0321,0.9556,-0.5969,0.065,0.073,0.863
+P5_WP_0630,The Washington Post,2025-01-18,"U.S. economy continues to outperform the rest of the world, IMF says",,,745,P5,POS,0.71,0.0029,0.2871,0.7076,0.109,0.103,0.788
+P5_WP_0631,The Washington Post,2025-01-18,Trump's 'reshoring' plan could be tough on the Irish economy,,,181,P5,NEU,0.0369,0.0178,0.9453,0.9786,0.095,0.071,0.834
+P5_NYT_0633,The New York Times,2025-01-18,"Even Before TikTok’s Troubles,  Chinese  Companies Were Wary of Washington",Meaghan Tobin and Daisuke Wakabayashi,,773,P5,NEU,0.0129,0.0382,0.9489,0.9916,0.085,0.032,0.883
+P5_WP_0634,The Washington Post,2025-01-18,Trump sees a new threat on the Mexican border. It's called  China .,Mary Beth Sheridan,,388,P5,NEU,0.0123,0.1351,0.8526,-0.9815,0.061,0.09,0.85
+P5_WP_0635,The Washington Post,2025-01-18,Biden's presidency is unpopular now. History might be kinder.,Editorial Board,,51,P5,NEU,0.015,0.3205,0.6645,0.9957,0.127,0.062,0.811
+P5_NYT_0637,The New York Times,2025-01-18,Two of the World’s Leading Thinkers on How the Left Went Astray,New York Times Opinion,,895,P5,NEU,0.0267,0.0044,0.9689,0.9977,0.131,0.048,0.821
+P5_NYT_0638,The New York Times,2025-01-18,"For years, C.E.O.s have used the annual gathering at the World Economic Forum to emphasize commitments to D.E.I., E.S.G. and globalization. Now the politics have changed.",Lauren Hirsch and Andrew Ross Sorkin,,821,P5,NEU,0.045,0.0058,0.9493,0.9728,0.064,0.029,0.907
+P5_NYT_0639,The New York Times,2025-01-18,Support for Trump’s Policies Exceeds Support for Trump,Jeremy W. Peters and Ruth Igielnik,,914,P5,NEU,0.0713,0.0109,0.9178,0.9865,0.093,0.05,0.857
+P5_NYT_0640,The New York Times,2025-01-18,Trump’s Return Has Unnerved World Leaders. But Not India.,Mujib Mashal,,436,P5,NEU,0.0452,0.0095,0.9453,0.9957,0.133,0.067,0.8
+P5_WSJ_0641,The Wall Street Journal,2025-01-18,Journal Writers Look Ahead to Trump 47,,,220,P5,NEU,0.0482,0.0046,0.9472,0.9965,0.162,0.088,0.75
+P5_FT_0642,Financial Times,2025-01-18,"The threats and taunts lobbed northwards in recent weeks by Trump are in part just a negotiating tactic. But they also point the way to a new world order in which all the traditional US allies lose out, writes Michael Ignatieff",,,624,P5,NEU,0.0794,0.0199,0.9008,0.7927,0.102,0.09,0.808
+P5_FT_0643,Financial Times,2025-01-18,UK premier touts ties with Trump in push for trade deal,,,669,P5,NEU,0.0575,0.0044,0.938,0.7494,0.075,0.063,0.862
+P5_FT_0644,Financial Times,2025-01-18,Europe's carmakers in danger of hefty bill for carbon credits from  Chinese  rivals,,,703,P5,NEU,0.0113,0.1516,0.8371,0.3573,0.049,0.046,0.905
+P5_FT_0645,Financial Times,2025-01-18,Late surge ensures  China 's growth hits 5% target,,,597,P5,NEU,0.2748,0.003,0.7222,0.9871,0.129,0.071,0.8
+P5_FT_0646,Financial Times,2025-01-18,Freeland joins Carney in race to replace Trudeau as leader,,,447,P5,NEU,0.0286,0.004,0.9673,0.0,0.0,0.0,1.0
+P5_FT_0647,Financial Times,2025-01-18,EU and Mexico upgrade trade pact ahead of US inauguration,,,397,P5,NEU,0.0637,0.0026,0.9337,0.0,0.0,0.0,1.0
+P5_FT_0648,Financial Times,2025-01-18,Starmer touts Trump relationship,,,207,P5,NEU,0.034,0.0075,0.9585,0.9921,0.109,0.061,0.829
+P5_WSJ_0652,The Wall Street Journal,2025-01-18,World News:  China  Split on Weakening Yuan to Fight Trump  Tariffs,Lingling Wei and Rebecca Feng,,816,P5,NEU,0.0176,0.0079,0.9745,0.3506,0.075,0.073,0.852
+P5_WSJ_0653,The Wall Street Journal,2025-01-18,"U.S. News: Xi, Trump Discuss Thorny Issues ---  Beijing  will send its vice president to the inauguration, vows cooperative efforts",Chun Han Wong and James T. Areddy,,644,P5,NEU,0.0593,0.0029,0.9378,0.9624,0.074,0.03,0.896
+P5_WSJ_0654,The Wall Street Journal,2025-01-18,"EXCHANGE --- Heard on the Street: Economic Downturn Is in the Cards --- Last time, Trump imposed  tariffs  only after huge tax cuts. Reversing that order is dangerous.",Aaron Back,,838,P5,NEU,0.0097,0.388,0.6024,-0.9807,0.074,0.109,0.816
+P5_WSJ_0655,The Wall Street Journal,2025-01-18,Trump Is Ready To Bypass Congress --- Plans for border and  tariffs  will push limits of presidential authority,"Tarini Parti, Brian Schwartz and Gavin Bade",,69,P5,NEU,0.0299,0.0168,0.9533,-0.8408,0.061,0.066,0.873
+P5_NYT_0658,The New York Times,2024-01-25,Tesla Tumbles as Growth Slows,"Andrew Ross Sorkin, Ravi Mattu, Bernhard Warner, Sarah Kessler, Michael J. de la Merced, Lauren Hirsch and Ephrat Livni                   <p>Andrew Ross Sorkin is a columnist and the founder and editor at large of DealBook. He is a co-anchor of CNBC&#8217;s &#34;Squawk Box&#34; and the author of &#8220;Too Big to Fail.&#8221; He is also a co-creator of the Showtime drama series &#34;Billions.&#34;</p>                   <p>Ravi Mattu is the managing editor of DealBook, based in London. He joined The New York Times in 2022 from the Financial Times, where he held a number of senior roles in Hong Kong and London.</p>                   <p>Bernhard Warner is a senior editor for DealBook, a newsletter from The Times, covering business trends, the economy and the markets.</p>                   <p>Sarah Kessler is an editor for the DealBook newsletter and writes features on business and how workplaces are changing.</p>                   <p>Michael de la Merced joined The Times as a reporter in 2006, covering Wall Street and finance. Among his main coverage areas are mergers and acquisitions, bankruptcies and the private equity industry.</p>                   <p>Lauren Hirsch joined The Times from CNBC in 2020, covering deals and the biggest stories on Wall Street.</p>                   <p>Ephrat Livni reports from Washington on the intersection of business and policy for DealBook. Previously, she was a senior reporter at Quartz, covering law and politics, and has practiced law in the public and private sectors.&#160;&#160;</p>",,116,P5,NEU,0.0247,0.027,0.9482,0.9839,0.052,0.009,0.938
+P5_NYT_0659,The New York Times,2024-01-25,Donald Trump’s Second-Term Agenda,"David Leonhardt                   <p>David Leonhardt runs <a href=&#34;https://www.nytimes.com/series/us-morning-briefing&#34;>The Morning</a>, The Times&#8217;s flagship daily newsletter. Since joining The Times in 1999, he has been an economics columnist, opinion columnist, head of the Washington bureau and founding editor of the Upshot section, among other roles.</p>",,104,P5,NEU,0.0455,0.0033,0.9512,0.9754,0.09,0.058,0.852
+P5_NYT_0660,The New York Times,2024-01-25,"Yellen, Criticizing Trump, Says Biden’s Economy Has Delivered Gains","Alan Rappeport                   <p>Alan Rappeport is an economic policy reporter, based in Washington. He covers the Treasury Department and writes about taxes, trade and fiscal matters.</p>",,885,P5,NEU,0.1571,0.0041,0.8388,0.9372,0.087,0.06,0.853
+P5_WSJ_0661,The Wall Street Journal,2024-01-25,"U.S. News -- Capital Account: Trump 2.0: More  Tariffs , Less Tax Cuts",Greg Ip,,7,P5,NEU,0.1221,0.0044,0.8735,0.9291,0.1,0.088,0.812
+P5_WSJ_0662,The Wall Street Journal,2024-01-25,"In a town hall with Fox News two weeks ago, Bret Baier asked Donald Trump about retribution:",Daniel Henninger,,895,P5,NEU,0.0128,0.0157,0.9715,-0.8768,0.066,0.061,0.873
+P5_WSJ_0663,The Wall Street Journal,2024-01-25,China  Pushes Bank Lending In Effort to Expand Economy,Jason Douglas,,32,P5,NEU,0.0658,0.0027,0.9316,0.9959,0.129,0.064,0.807
+P5_NYT_0665,The New York Times,2024-07-05,Who Pays  Tariffs ? And How Do We Know?,Paul Krugman,,72,P5,NEU,0.017,0.0097,0.9733,0.9892,0.077,0.038,0.886
+P5_NYT_0667,The New York Times,2024-07-05,One Obstacle for Trump’s Promises: This Isn’t the 2016 Economy,Jeanna Smialek,,634,P5,NEU,0.0212,0.0475,0.9314,-0.6223,0.083,0.094,0.823
+P5_FT_0668,Financial Times,2024-07-05,China  cadres given green light to buy Tesla vehicles,,,383,P5,NEU,0.1153,0.003,0.8817,0.0,0.0,0.0,1.0
+P5_FT_0669,Financial Times,2024-07-05,Trade friction and debt top list of Europe central banks' risk factors,,,527,P5,NEU,0.0163,0.0133,0.9704,-0.9823,0.049,0.101,0.85
+P5_WSJ_0670,The Wall Street Journal,2024-07-05,"Saks Fifth Avenue's parent company sealed a $2.65 billion deal to buy rival Neiman Marcus, creating a powerhouse in luxury retailing that seeks to hang on to wealthy shoppers.",,,234,P5,NEU,0.329,0.0023,0.6688,0.9674,0.125,0.038,0.837
+P5_WSJ_0671,The Wall Street Journal,2024-07-05,"Business News: EU Confirms  Tariffs  on EVs Made in  China  --- New import fees will begin on Friday and last at least four months, bloc says",David Sachs,,349,P5,NEU,0.0125,0.0132,0.9743,0.0,0.0,0.0,1.0
+P5_WP_0673,The Washington Post,2023-06-27,"To feed its babies, the U.S. needs a new formula",,,755,P5,NEU,0.0154,0.0265,0.9581,0.4084,0.067,0.0,0.933
+P5_NYT_0674,The New York Times,2023-06-27,"If Biden Wanted to Ease U.S.- China  Tensions, Would Americans Let Him?",Ian Prasad Philbrick,,463,P5,NEU,0.0345,0.0046,0.9609,-0.9984,0.04,0.141,0.819
+P5_NYT_0675,The New York Times,2023-06-27,Your Wednesday Briefing: Wagner Chief in Exile,Amelia Nierenberg,,211,P5,NEU,0.0225,0.0042,0.9733,-0.9665,0.046,0.081,0.873
+P5_FT_0676,Financial Times,2023-06-27,Scientists and industry leaders reject delayed return to Horizon as 'absurd',,,839,P5,NEU,0.0245,0.1084,0.8671,0.939,0.102,0.084,0.814
+P5_NYT_0679,The New York Times,2024-03-21,It Hurts to See Biden Imitating Trump on Trade,Roger Lowenstein,,216,P5,NEU,0.0203,0.2723,0.7074,-0.9933,0.122,0.157,0.721
+P5_NYT_0680,The New York Times,2024-03-21,What’s the Matter With Ohio?,Paul Krugman,,971,P5,NEU,0.0128,0.0203,0.9669,0.9811,0.111,0.079,0.81
+P5_FT_0681,Financial Times,2024-03-21,Billionaire Paulson to host Trump fundraiser,,,569,P5,NEU,0.0231,0.0061,0.9708,0.9739,0.091,0.043,0.867
+P5_FT_0682,Financial Times,2024-03-21,China  pushes Australia to maintain foreign policy independence,,,509,P5,NEU,0.0263,0.0049,0.9688,0.0,0.0,0.0,1.0
+P5_FT_0683,Financial Times,2024-03-21,MG owner agrees deal to launch electric cars in India,,,547,P5,NEU,0.1472,0.0023,0.8504,0.8678,0.038,0.015,0.948
+P5_WP_0685,The Washington Post,2023-05-08,"New cars, once part of American Dream, out of reach for many",,,772,P5,NEU,0.0284,0.0084,0.9632,0.9674,0.083,0.059,0.858
+P5_FT_0687,Financial Times,2023-05-08,Tesla's price cuts force EV rivals to respond,,,186,P5,NEU,0.0203,0.0291,0.9506,-0.958,0.073,0.093,0.833
+P5_WSJ_0688,The Wall Street Journal,2023-05-08,U.S. News --- THE OUTLOOK:  Tariffs  Take Back Seat in Trade Deals Now,Daniel Michaels,,867,P5,NEU,0.014,0.0081,0.9779,0.9928,0.108,0.055,0.837
+P5_NYT_0690,The New York Times,2024-05-10,China  Rules the Green Economy. Here’s Why That’s a Problem for Biden.,Somini Sengupta,,285,P5,NEU,0.0113,0.3405,0.6482,0.7235,0.089,0.076,0.835
+P5_WP_0691,The Washington Post,2024-05-10,China 's Xi wades into Europe's political divides ; Xi Jinping’s three chosen stops in Europe reveal much about the global state of play.,Ishaan Tharoor,,52,P5,NEU,0.0236,0.0049,0.9715,0.9912,0.097,0.044,0.86
+P5_WSJ_0692,The Wall Street Journal,2024-05-10,"China's exports to the European Union and the U.S. dropped in the four months through April compared with a year earlier, even as China's exports overall rose 1.5%.",,,580,P5,NEU,0.0527,0.0506,0.8967,-0.9939,0.034,0.12,0.846
+P5_WP_0693,The Washington Post,2024-05-10,"A Palestinian scholar says Biden is trying to ""have it both ways"" on Gaza ; In today’s edition … House Republicans brace for more drama . . . Trump’s lean campaign concerns GOP officials.",Theodoric MeyerLeigh Ann CaldwellAlec Dent,,217,P5,NEU,0.0235,0.0259,0.9507,-0.9936,0.057,0.099,0.845
+P5_WP_0694,The Washington Post,2024-05-10,"Paul Manafort, poised to rejoin Trump world, aided  Chinese  media deal",Isaac Stanley-BeckerBeth ReinhardJosh Dawsey,,344,P5,NEU,0.0234,0.005,0.9716,0.9758,0.086,0.052,0.862
+P5_NYT_0695,The New York Times,2024-05-10,Why Companies Are Nervous About the Consumer,"Andrew Ross Sorkin, Ravi Mattu, Bernhard Warner, Sarah Kessler, Michael J. de la Merced, Lauren Hirsch and Ephrat Livni",,816,P5,NEU,0.0129,0.0171,0.97,-0.9938,0.042,0.094,0.863
+P5_NYT_0696,The New York Times,2024-05-10,"No, Donald Trump, Biden’s Economy Is Not Like Weimar Germany’s",Peter Coy,,88,P5,NEU,0.0225,0.0865,0.891,0.3314,0.073,0.074,0.853
+P5_NYT_0697,The New York Times,2024-05-10,Aid for Gazans Has Come to a Near-Total Halt,Matthew Cullen,,257,P5,NEU,0.0065,0.4476,0.5459,0.9678,0.079,0.06,0.861
+P5_NYT_0698,The New York Times,2024-05-10,U.S. to Announce New  Tariffs  on  Chinese  Electric Vehicles,Alan Rappeport and Jim Tankersley,,277,P5,NEU,0.0245,0.0049,0.9706,0.4913,0.061,0.052,0.888
+P5_FT_0699,Financial Times,2024-05-10,President Xi's unproductive European tour,,,637,P5,NEU,0.0103,0.186,0.8036,0.0,0.0,0.0,1.0
+P5_FT_0700,Financial Times,2024-05-10,BYD looks to overtake Tesla in Europe,,,553,P5,NEU,0.074,0.003,0.923,0.9565,0.055,0.009,0.936
+P5_WP_0702,The Washington Post,2022-11-27,Would you buy a made-in- China  electric car? They're coming.,Jeanne Whalen,,897,P5,NEU,0.029,0.004,0.967,0.9888,0.079,0.039,0.882
+P5_WP_0705,The Washington Post,2023-10-11,"Australian journalist, detained in  China  for three years, arrives home",Michael E. MillerLily Kuo,,234,P5,NEU,0.0096,0.0134,0.9769,-0.9923,0.055,0.106,0.839
+P5_FT_0706,Financial Times,2023-10-11,Brussels builds united front with US by planning probe of  China  steel subsidies,,,405,P5,NEU,0.0701,0.0026,0.9273,0.4215,0.065,0.0,0.935
