@@ -4,7 +4,7 @@ A curated corpus of newspaper and broadcast articles covering US-China trade rel
 
 ## Overview
 
-This dataset contains 569 deduplicated news articles covering US-China trade policy from February 2017 through February 2026, spanning five distinct policy periods from the Trump administration through the Biden administration.
+This dataset contains 569 deduplicated news articles covering US-China trade policy from January 2017 through February 2026, spanning five distinct policy periods from the Trump administration through the Biden administration.
 
 ## Periodization
 
@@ -14,7 +14,7 @@ This dataset contains 569 deduplicated news articles covering US-China trade pol
 | P2 | Mar 23, 2018 - Jan 15, 2020 | Trade war escalation; tariffs through Phase One signing |
 | P3 | Jan 16, 2020 - Jan 20, 2021 | Phase One implementation; COVID-19 disruption |
 | P4 | Jan 21, 2021 - Oct 6, 2022 | Biden administration policy review |
-| P5 | Oct 7, 2022 - Dec 31, 2025 | Technology decoupling; semiconductor export controls |
+| P5 | Oct 7, 2022 - Feb 2, 2026 | Technology decoupling; semiconductor export controls |
 
 ## Sources
 
@@ -29,7 +29,7 @@ This dataset contains 569 deduplicated news articles covering US-China trade pol
 - MSNBC (n=5, 0.9%)
 - Fox News (n=2, 0.4%)
 
-**Note:** CNN was included in the original search query but no CNN articles appear in the final deduplicated corpus, likely due to limited full-text indexing in Factiva for broadcast transcripts.
+**Note:** CNN was included in the original search query but no CNN articles appear in the final deduplicated corpus.
 
 ## Sampling Methodology
 
@@ -41,8 +41,8 @@ This corpus employs constructed week sampling (Riffe, Aust, & Lacy, 1993), a val
 
 | File | Description | Size |
 |------|-------------|------|
-| `corpus_with_sentiment.csv` | Full corpus with article text and sentiment scores | 4.2 MB |
-| `corpus_metadata_sentiment.csv` | Metadata and sentiment scores only (no full text) | 105 KB |
+| `corpus_with_sentiment.csv` | Full corpus with article text and sentiment scores | ~4 MB |
+| `corpus_metadata_sentiment.csv` | Metadata and sentiment scores only (no full text) | ~105 KB |
 
 ## Sentiment Analysis
 
