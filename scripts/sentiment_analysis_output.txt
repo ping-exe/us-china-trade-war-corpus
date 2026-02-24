@@ -1,0 +1,151 @@
+======================================================================
+SENTIMENT ANALYSIS PIPELINE
+US-China Trade War Newspaper Corpus
+Run Date: 2026-02-23 19:33:25
+======================================================================
+
+[1/4] LOADING CORPUS DATA
+----------------------------------------------------------------------
+Loaded 569 articles
+Date range: 2017-02-05 to 2026-02-02
+Columns: ['article_id', 'source_normalized', 'source_raw', 'date_normalized', 'date', 'headline', 'byline', 'section', 'word_count', 'period', 'full_text', 'pysentimiento_label', 'pysentimiento_pos', 'pysentimiento_neg', 'pysentimiento_neu', 'vader_compound', 'vader_pos', 'vader_neg', 'vader_neu']
+
+======================================================================
+[2/4] PYSENTIMIENTO SENTIMENT ANALYSIS
+======================================================================
+
+Model: pysentimiento RoBERTa-based sentiment classifier
+Language: English
+Task: Sentiment classification (POS/NEG/NEU)
+Input: First 512 tokens of article text
+----------------------------------------------------------------------
+
+Pysentimiento scores found in dataset. Displaying results...
+
+======================================================================
+PYSENTIMIENTO RESULTS
+======================================================================
+
+Sentiment Classification Distribution:
+----------------------------------------
+Label                  N   Percentage
+----------------------------------------
+NEU                  531        93.3%
+NEG                   28         4.9%
+POS                   10         1.8%
+----------------------------------------
+TOTAL                569       100.0%
+
+Probability Score Statistics:
+----------------------------------------
+
+POS Probability:
+  Mean:   0.0515
+  Std:    0.1087
+  Min:    0.0025
+  Max:    0.8831
+
+NEG Probability:
+  Mean:   0.0854
+  Std:    0.1663
+  Min:    0.0020
+  Max:    0.9283
+
+NEU Probability:
+  Mean:   0.8631
+  Std:    0.1806
+  Min:    0.0686
+  Max:    0.9799
+
+======================================================================
+[3/4] VADER SENTIMENT ANALYSIS
+======================================================================
+
+Model: VADER (Valence Aware Dictionary and sEntiment Reasoner)
+Type: Lexicon and rule-based sentiment analyzer
+Reference: Hutto & Gilbert (2014)
+Input: First 5000 characters of article text
+----------------------------------------------------------------------
+
+VADER scores found in dataset. Displaying results...
+
+======================================================================
+VADER RESULTS
+======================================================================
+
+Compound Score Descriptive Statistics:
+----------------------------------------
+Statistic                      Value
+----------------------------------------
+Mean                          0.1743
+Standard Deviation            0.8014
+Median                        0.3765
+Minimum                      -0.9988
+Maximum                       0.9993
+25th Percentile              -0.7256
+75th Percentile               0.9756
+
+Categorical Classification (Standard Thresholds):
+----------------------------------------
+Thresholds: Positive >= 0.05, Negative <= -0.05, Neutral otherwise
+----------------------------------------
+Category                    N   Percentage
+----------------------------------------
+Positive (>=0.05)         310        54.5%
+Neutral                    51         9.0%
+Negative (<=-0.05)        208        36.6%
+----------------------------------------
+TOTAL                     569       100.0%
+
+Component Score Statistics:
+----------------------------------------
+
+POS Component:
+  Mean:   0.0749
+  Std:    0.0412
+
+NEG Component:
+  Mean:   0.0661
+  Std:    0.0396
+
+NEU Component:
+  Mean:   0.8590
+  Std:    0.0624
+
+======================================================================
+[4/4] CROSS-METHOD COMPARISON
+======================================================================
+
+Pearson Correlation (VADER compound vs Pysentimiento NEG probability):
+  r = -0.2028, p = 0.000001
+
+----------------------------------------------------------------------
+VADER Mean Sentiment by Policy Period:
+----------------------------------------------------------------------
+Period           Mean        Std        N
+----------------------------------------
+P1             0.3762     0.7685       84
+P2             0.1095     0.8084      308
+P3            -0.0514     0.7901       72
+P4             0.2941     0.7507       31
+P5             0.3840     0.7571       74
+
+----------------------------------------------------------------------
+One-Way ANOVA: Sentiment across Policy Periods
+----------------------------------------------------------------------
+F-statistic: 4.8303
+p-value: 0.000775
+Result: Significant at α = 0.05
+
+======================================================================
+ANALYSIS COMPLETE
+======================================================================
+
+Total articles analyzed: 569
+Date range: 2017-02-05 to 2026-02-02
+
+Key Findings:
+  - Pysentimiento classified 93.3% as Neutral
+  - VADER mean compound score: 0.1743
+  - Cross-method correlation: r = -0.2028
+  - Significant period differences: Yes (F = 4.830, p = 0.0008)
