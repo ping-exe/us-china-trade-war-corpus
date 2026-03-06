@@ -51,41 +51,37 @@ print("="*70)
 print("\nModel: pysentimiento RoBERTa-based sentiment classifier")
 print("Language: English")
 print("Task: Sentiment classification (POS/NEG/NEU)")
-print("Input: First 512 tokens of article text")
+print("Input: First ~512 tokens (approx. 2000 characters) of article text")
 print("-"*70)
 
-# Check if pysentimiento scores already exist
-if 'pysentimiento_label' in df.columns and df['pysentimiento_label'].notna().all():
-    print("\nPysentimiento scores found in dataset. Displaying results...")
-else:
-    print("\nRunning pysentimiento analysis...")
-    from pysentimiento import create_analyzer
-    analyzer = create_analyzer(task="sentiment", lang="en")
-    
-    pysen_results = []
-    for idx, row in df.iterrows():
-        text = str(row.get('full_text', ''))[:512] if row.get('full_text') else str(row['headline'])
-        if text.strip():
-            result = analyzer.predict(text)
-            pysen_results.append({
-                'pysentimiento_label': result.output,
-                'pysentimiento_pos': round(result.probas.get('POS', 0), 4),
-                'pysentimiento_neg': round(result.probas.get('NEG', 0), 4),
-                'pysentimiento_neu': round(result.probas.get('NEU', 0), 4)
-            })
-        else:
-            pysen_results.append({
-                'pysentimiento_label': 'NEU',
-                'pysentimiento_pos': 0,
-                'pysentimiento_neg': 0,
-                'pysentimiento_neu': 1
-            })
-        if (idx + 1) % 100 == 0:
-            print(f"  Processed {idx + 1}/{len(df)} articles...")
-    
-    pysen_df = pd.DataFrame(pysen_results)
-    for col in pysen_df.columns:
-        df[col] = pysen_df[col].values
+print("\nRunning pysentimiento analysis...")
+from pysentimiento import create_analyzer
+analyzer = create_analyzer(task="sentiment", lang="en")
+
+pysen_results = []
+for idx, row in df.iterrows():
+    text = str(row.get('full_text', ''))[:2000] if row.get('full_text') else str(row['headline'])
+    if text.strip():
+        result = analyzer.predict(text)
+        pysen_results.append({
+            'pysentimiento_label': result.output,
+            'pysentimiento_pos': round(result.probas.get('POS', 0), 4),
+            'pysentimiento_neg': round(result.probas.get('NEG', 0), 4),
+            'pysentimiento_neu': round(result.probas.get('NEU', 0), 4)
+        })
+    else:
+        pysen_results.append({
+            'pysentimiento_label': 'NEU',
+            'pysentimiento_pos': 0,
+            'pysentimiento_neg': 0,
+            'pysentimiento_neu': 1
+        })
+    if (idx + 1) % 100 == 0:
+        print(f"  Processed {idx + 1}/{len(df)} articles...")
+
+pysen_df = pd.DataFrame(pysen_results)
+for col in pysen_df.columns:
+    df[col] = pysen_df[col].values
 
 # Display Pysentimiento Results
 print("\n" + "="*70)
@@ -250,3 +246,6 @@ print(f"  - Pysentimiento classified {pysen_counts.get('NEU', 0)/len(df)*100:.1f
 print(f"  - VADER mean compound score: {vader.mean():.4f}")
 print(f"  - Cross-method correlation: r = {r:.4f}")
 print(f"  - Significant period differences: {'Yes' if p_val < 0.05 else 'No'} (F = {f_stat:.3f}, p = {p_val:.4f})")
+
+df.to_csv('../data/corpus_with_sentiment.csv', index=False)
+print("\nSaved updated scores to ../data/corpus_with_sentiment.csv")
