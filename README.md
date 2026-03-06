@@ -4,7 +4,7 @@ A curated corpus of newspaper and broadcast articles covering US-China trade rel
 
 ## Overview
 
-This dataset contains 569 deduplicated news articles covering US-China trade policy from January 2017 through February 2026, spanning five distinct policy periods from the Trump administration through the Biden administration.
+This dataset contains 559 deduplicated news articles covering US-China trade policy from January 2017 through February 2026, spanning five distinct policy periods from the Trump administration through the Biden administration.
 
 ## Periodization
 
@@ -19,13 +19,13 @@ This dataset contains 569 deduplicated news articles covering US-China trade pol
 ## Sources
 
 **Print Publications:**
-- The New York Times (n=182, 32.0%)
-- The Washington Post (n=148, 26.0%)
+- The New York Times (n=177, 31.7%)
+- The Washington Post (n=145, 25.9%)
 - Financial Times (n=136, 23.9%)
-- The Wall Street Journal (n=89, 15.6%)
+- The Wall Street Journal (n=87, 15.6%)
 
 **Broadcast Outlets:**
-- PBS NewsHour (n=7, 1.2%)
+- PBS NewsHour (n=7, 1.3%)
 - MSNBC (n=5, 0.9%)
 - Fox News (n=2, 0.4%)
 
@@ -53,7 +53,7 @@ Each article has been analyzed using two complementary approaches:
 
 ## Key Statistics
 
-- **Total Articles:** 569
+- **Total Articles:** 559 (P1=83, P2=303, P3=70, P4=31, P5=72)
 - **Date Range:** February 5, 2017 - February 2, 2026
 - **Mean Word Count:** 516 (SD = 278)
 - **VADER Mean Sentiment:** 0.17 (SD = 0.80)
