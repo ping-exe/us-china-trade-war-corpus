@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@6"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@6.1.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@7"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "layer": [{"mark": {"type": "rect", "stroke": "white", "strokeWidth": 1}, "encoding": {"color": {"field": "mean_vader", "scale": {"domain": [-0.5, 1.0], "scheme": "redyellowblue"}, "title": "Mean VADER", "type": "quantitative"}, "tooltip": [{"field": "source", "type": "nominal"}, {"field": "period", "type": "nominal"}, {"field": "mean_vader", "format": ".3f", "title": "Mean VADER", "type": "quantitative"}, {"field": "n", "title": "n articles", "type": "quantitative"}], "x": {"axis": {"labelAngle": 0}, "field": "period", "sort": ["P1", "P2", "P3", "P4", "P5"], "title": "Period", "type": "ordinal"}, "y": {"field": "source", "sort": ["The Wall Street Journal", "Financial Times", "The New York Times", "The Washington Post", "PBS NewsHour", "Fox News", "MSNBC"], "title": "", "type": "nominal"}}}, {"mark": {"type": "text", "fontSize": 11, "fontWeight": "bold"}, "encoding": {"color": {"condition": {"test": "datum.mean_vader > 0.5 || datum.mean_vader < -0.2", "value": "white"}, "value": "#333"}, "text": {"field": "mean_vader", "format": ".2f", "type": "quantitative"}, "x": {"field": "period", "sort": ["P1", "P2", "P3", "P4", "P5"], "type": "ordinal"}, "y": {"field": "source", "sort": ["The Wall Street Journal", "Financial Times", "The New York Times", "The Washington Post", "PBS NewsHour", "Fox News", "MSNBC"], "type": "nominal"}}}], "data": {"name": "data-f0b29ce36e44857e87a3c49ea01f7d6e"}, "height": 280, "title": {"text": "Mean VADER Sentiment: Source \u00d7 Period", "fontSize": 15, "subtitle": ["Red = negative, Blue = positive. P2 (escalation) shows the most negative readings across outlets."], "subtitleColor": "#555", "subtitleFontSize": 11}, "width": 380, "$schema": "https://vega.github.io/schema/vega-lite/v6.1.0.json", "datasets": {"data-f0b29ce36e44857e87a3c49ea01f7d6e": [{"source": "Financial Times", "period": "P1", "mean_vader": 0.19084374999999998, "n": 16}, {"source": "Financial Times", "period": "P2", "mean_vader": 0.05524250000000001, "n": 80}, {"source": "Financial Times", "period": "P3", "mean_vader": 0.08459230769230769, "n": 13}, {"source": "Financial Times", "period": "P4", "mean_vader": -0.13428571428571429, "n": 7}, {"source": "Financial Times", "period": "P5", "mean_vader": 0.36347, "n": 20}, {"source": "Fox News", "period": "P1", "mean_vader": 0.9973, "n": 1}, {"source": "Fox News", "period": "P2", "mean_vader": 0.3174, "n": 1}, {"source": "MSNBC", "period": "P2", "mean_vader": 0.9998750000000001, "n": 4}, {"source": "MSNBC", "period": "P4", "mean_vader": 0.9999, "n": 1}, {"source": "PBS NewsHour", "period": "P1", "mean_vader": 0.9999, "n": 1}, {"source": "PBS NewsHour", "period": "P2", "mean_vader": 0.60008, "n": 5}, {"source": "PBS NewsHour", "period": "P3", "mean_vader": 0.9997, "n": 1}, {"source": "The New York Times", "period": "P1", "mean_vader": 0.5598833333333334, "n": 24}, {"source": "The New York Times", "period": "P2", "mean_vader": 0.2343730337078652, "n": 89}, {"source": "The New York Times", "period": "P3", "mean_vader": 0.16773846153846156, "n": 26}, {"source": "The New York Times", "period": "P4", "mean_vader": 0.5931916666666667, "n": 12}, {"source": "The New York Times", "period": "P5", "mean_vader": 0.6525, "n": 26}, {"source": "The Wall Street Journal", "period": "P1", "mean_vader": 0.2653076923076923, "n": 13}, {"source": "The Wall Street Journal", "period": "P2", "mean_vader": 0.05198043478260869, "n": 46}, {"source": "The Wall Street Journal", "period": "P3", "mean_vader": -0.10138333333333334, "n": 12}, {"source": "The Wall Street Journal", "period": "P4", "mean_vader": -0.024124999999999987, "n": 4}, {"source": "The Wall Street Journal", "period": "P5", "mean_vader": 0.12965000000000002, "n": 12}, {"source": "The Washington Post", "period": "P1", "mean_vader": 0.4217821428571429, "n": 28}, {"source": "The Washington Post", "period": "P2", "mean_vader": 0.09713333333333334, "n": 78}, {"source": "The Washington Post", "period": "P3", "mean_vader": 0.07064999999999998, "n": 18}, {"source": "The Washington Post", "period": "P4", "mean_vader": 0.4293142857142857, "n": 7}, {"source": "The Washington Post", "period": "P5", "mean_vader": 0.49116428571428566, "n": 14}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
