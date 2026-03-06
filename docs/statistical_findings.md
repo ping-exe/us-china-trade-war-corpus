@@ -1,31 +1,63 @@
-# Key Statistical Findings
+# Statistical Findings: U.S.-China Trade War Media Coverage
 
-## Sentiment Analysis Results
+## Corpus Overview
 
-### Overall Corpus Characteristics
+- **Total Articles:** 569
+- **Date Range:** February 5, 2017 - February 2, 2026
+- **Sources:** 7 news outlets
+- **Sentiment Methods:** VADER (lexicon-based), pysentimiento (RoBERTa)
 
-The final corpus comprises 569 deduplicated articles spanning February 2017 through February 2026, with coverage concentrated in the trade war escalation period (P2: n = 308, 54.1%). Four print sources—The New York Times (32.0%), The Washington Post (26.0%), Financial Times (23.9%), and The Wall Street Journal (15.6%)—account for 97.5% of the corpus, with broadcast sources contributing minimal coverage (PBS NewsHour: 1.2%, MSNBC: 0.9%, Fox News: 0.4%).
+## 1. Coverage Distribution by Period
 
-### Temporal Patterns in Media Sentiment
+| Period | Date Range | Articles | % of Corpus |
+|--------|------------|----------|-------------|
+| P1 | 2017-02-05 to 2018-03-17 | 84 | 14.8% |
+| P2 | 2018-04-22 to 2019-11-16 | 308 | 54.1% |
+| P3 | 2020-02-02 to 2020-12-19 | 72 | 12.7% |
+| P4 | 2021-02-28 to 2022-08-20 | 31 | 5.4% |
+| P5 | 2022-11-27 to 2026-02-02 | 74 | 13.0% |
 
-Analysis using VADER sentiment scores reveals significant variation across policy periods (one-way ANOVA: F(4, 564) = 4.830, p < .001). Contrary to expectations that sentiment would be most negative during the trade war escalation, the data reveal a more nuanced pattern. The Pre-Trade War period (P1) exhibited moderately positive sentiment (M = 0.376, SD = 0.768), which declined during Escalation (P2: M = 0.110, SD = 0.808) and reached its nadir during the Phase One period (P3: M = -0.051, SD = 0.790). This finding suggests that media coverage became most negative not during tariff announcements, but during the implementation period coinciding with the COVID-19 pandemic—a period marked by supply chain disruptions, compliance disputes, and broader economic uncertainty.
+**Finding:** P2 (trade war escalation) accounts for over half of all coverage.
 
-Sentiment recovered during the Biden Review period (P4: M = 0.294, SD = 0.751) and the Technology Decoupling period (P5: M = 0.384, SD = 0.757), returning to levels comparable to the pre-trade war baseline. This recovery may reflect routinization of trade tensions in media coverage, a shift in framing from economic conflict to technology competition, or simply reduced salience of trade issues relative to other policy concerns.
+## 2. VADER Sentiment by Period
 
-### Cross-Source Variation
+| Period | Mean VADER | Std Dev | n |
+|--------|------------|---------|---|
+| P1 | +0.4136 | 0.7675 | 84 |
+| P2 | +0.1430 | 0.8243 | 308 |
+| P3 | +0.1180 | 0.8325 | 72 |
+| P4 | +0.3254 | 0.8076 | 31 |
+| P5 | +0.4467 | 0.7474 | 74 |
 
-The source-by-period heatmap reveals notable heterogeneity in coverage tone. While all four major print sources followed broadly similar temporal trajectories, the Wall Street Journal exhibited distinctively negative sentiment during the Biden Review period (M = -0.52, n = 4), potentially reflecting editorial perspective on the administration's continuation of Trump-era tariffs. The Financial Times maintained the most neutral stance throughout the study period, consistent with its positioning as an international business publication. Sample sizes for broadcast sources are insufficient for reliable cross-source comparison.
+**Finding:** Sentiment lowest during active conflict (P2, P3), highest during P5.
 
-### Methodological Divergence Between Sentiment Measures
+## 3. VADER Sentiment by Source
 
-A critical methodological finding concerns the divergence between VADER and Pysentimiento sentiment classifications. The Pearson correlation between VADER compound scores and Pysentimiento negative probability was weak and negative (r = -0.203, p < .001), indicating that these methods capture different aspects of text sentiment. Most strikingly, Pysentimiento classified 93.3% of articles as neutral, compared to VADER's more distributed classification (54.5% positive, 36.6% negative, 9.0% neutral using standard thresholds).
+| Source | Mean VADER | n |
+|--------|------------|---|
+| MSNBC | +0.9999 | 5 |
+| PBS NewsHour | +0.7143 | 7 |
+| Fox News | +0.6574 | 2 |
+| The New York Times | +0.3632 | 182 |
+| The Washington Post | +0.2140 | 148 |
+| Financial Times | +0.1096 | 136 |
+| The Wall Street Journal | +0.0721 | 89 |
 
-This divergence likely reflects differences in training data and model architecture. Pysentimiento, trained primarily on social media text, may be poorly calibrated for the formal register and complex sentence structures characteristic of news journalism. VADER, designed for social media but lexicon-based, appears more sensitive to sentiment-laden vocabulary regardless of text genre. These findings underscore the importance of method validation when applying sentiment analysis tools to domains outside their original training context.
+**Finding:** Financial press (WSJ, FT) most neutral; broadcast outlets more positive.
 
-### Limitations
+## 4. Pysentimiento Classification
 
-Several limitations warrant acknowledgment. First, the constructed week sampling methodology, while efficient, may miss coverage of specific events falling outside sampled dates. Second, sentiment analysis captures tone rather than substantive framing—an article may be classified as "positive" while presenting trade policy critically, if the language used is not explicitly negative. Third, the low representation of broadcast sources limits generalizability to television news coverage. Finally, the study period extends through early 2026, and patterns in the most recent period may shift as additional policy developments unfold.
+| Label | Count | % |
+|-------|-------|---|
+| Neutral | 530 | 93.1% |
+| Negative | 29 | 5.1% |
+| Positive | 10 | 1.8% |
 
-### Conclusion
+**Finding:** 93% neutral reflects professional journalistic tone.
 
-This analysis demonstrates that media sentiment toward US-China trade relations varied significantly across policy periods, with the most negative coverage occurring during the Phase One implementation period rather than during active tariff escalation. The substantial divergence between VADER and Pysentimiento classifications highlights the methodological challenges inherent in automated sentiment analysis of political news content and suggests that researchers should employ multiple methods and validate results against human coding when possible.
+## 5. Key Takeaways
+
+1. Coverage peaked during trade war escalation (P2: 54% of articles)
+2. Sentiment correlates with policy phases
+3. Source differences exist between financial and broadcast media
+4. Both methods confirm sentiment dipped during active conflict

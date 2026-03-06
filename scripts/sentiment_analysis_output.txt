@@ -1,4 +1,41 @@
-======================================================================
+SENTIMENT ANALYSIS OUTPUT
+Run date: March 6, 2026
+Articles analyzed: 569
+
+=== VADER SENTIMENT BY PERIOD ===
+         mean    std   count
+period                      
+P1     0.4136  0.7675    84
+P2     0.1430  0.8243   308
+P3     0.1180  0.8325    72
+P4     0.3254  0.8076    31
+P5     0.4467  0.7474    74
+
+=== VADER SENTIMENT BY SOURCE ===
+                           mean  count
+source_normalized                     
+Financial Times          0.1096    136
+Fox News                 0.6574      2
+MSNBC                    0.9999      5
+PBS NewsHour             0.7143      7
+The New York Times       0.3632    182
+The Wall Street Journal  0.0721     89
+The Washington Post      0.2140    148
+
+=== PYSENTIMIENTO CLASSIFICATION ===
+         count    %
+Neutral    530  93.1
+Negative    29   5.1
+Positive    10   1.8
+
+=== DATE RANGES ===
+               min         max
+period                        
+P1      2017-02-05  2018-03-17
+P2      2018-04-22  2019-11-16
+P3      2020-02-02  2020-12-19
+P4      2021-02-28  2022-08-20
+P5      2022-11-27  2026-02-02======================================================================
 SENTIMENT ANALYSIS PIPELINE
 US-China Trade War Newspaper Corpus
 Run Date: 2026-02-23 19:33:25
