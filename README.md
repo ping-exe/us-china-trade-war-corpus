@@ -55,7 +55,7 @@ Each article has been analyzed using two complementary approaches:
 ## Key Statistics
 
 - **Total Articles:** 559 (P1=83, P2=303, P3=70, P4=31, P5=72)
-- **Date Range:** February 5, 2017 - February 2, 2026
+- **Date Range:** February 5, 2017 - January 18, 2025
 - **Mean Word Count:** 516 (SD = 278)
 - **VADER Mean Sentiment:** 0.17 (SD = 0.80)
 
