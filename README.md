@@ -43,6 +43,7 @@ This corpus employs constructed week sampling (Riffe, Aust, & Lacy, 1993), a val
 |------|-------------|------|
 | `corpus_with_sentiment.csv` | Full corpus with article text and sentiment scores | ~4 MB |
 | `corpus_metadata_sentiment.csv` | Metadata and sentiment scores only (no full text) | ~105 KB |
+| `docs/validation_sample.csv` | Manual validation sample with hand-coded sentiment and frames (n=20) | ~3 KB |
 
 ## Sentiment Analysis
 
