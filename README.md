@@ -35,7 +35,7 @@ This dataset contains 559 deduplicated news articles covering US-China trade pol
 
 This corpus employs constructed week sampling (Riffe, Aust, & Lacy, 1993), a validated method in media research.
 
-**Search Query:** `(tariff OR tariffs OR trade war OR trade policy) AND (China OR Chinese OR Beijing)`
+**Search Query:** `(tariff OR tariffs OR "trade war" OR "trade policy") AND (China OR Chinese OR Beijing)`
 
 ## Data Files
 
