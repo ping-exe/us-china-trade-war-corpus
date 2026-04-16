@@ -4,7 +4,7 @@ A curated corpus of newspaper and broadcast articles covering US-China trade rel
 
 ## Overview
 
-This dataset contains 559 deduplicated news articles covering US-China trade policy from January 2017 through February 2026, spanning five distinct policy periods from the Trump administration through the Biden administration.
+This dataset contains 559 deduplicated news articles covering US-China trade policy from February 2017 through January 2025, spanning five distinct policy periods from the Trump administration through the Biden administration.
 
 ## Periodization
 
