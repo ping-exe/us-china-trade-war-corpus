@@ -64,7 +64,7 @@ GNU General Public License v3.0 - see [LICENSE](LICENSE) for details.
 
 ## Citation
 
-Leung, Thomas. (2026). US-China Trade War Newspaper Corpus (2017-2026). GitHub: https://github.com/thomaspingleung/us-china-trade-war-corpus
+Leung, Thomas. (2026). US-China Trade War Newspaper Corpus (2017-2026). GitHub: https://github.com/ping-exe/us-china-trade-war-corpus
 
 ## References
 
