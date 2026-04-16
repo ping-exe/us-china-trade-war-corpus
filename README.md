@@ -21,7 +21,7 @@ This dataset contains 559 deduplicated news articles covering US-China trade pol
 **Print Publications:**
 - The New York Times (n=177, 31.7%)
 - The Washington Post (n=145, 25.9%)
-- Financial Times (n=136, 23.9%)
+- Financial Times (n=136, 24.3%)
 - The Wall Street Journal (n=87, 15.6%)
 
 **Broadcast Outlets:**
