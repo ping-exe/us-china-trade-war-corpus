@@ -14,7 +14,7 @@ This dataset contains 559 deduplicated news articles covering US-China trade pol
 | P2 | Mar 23, 2018 - Jan 15, 2020 | Trade war escalation; tariffs through Phase One signing |
 | P3 | Jan 16, 2020 - Jan 20, 2021 | Phase One implementation; COVID-19 disruption |
 | P4 | Jan 21, 2021 - Oct 6, 2022 | Biden administration policy review |
-| P5 | Oct 7, 2022 - Feb 2, 2026 | Technology decoupling; semiconductor export controls |
+| P5 | Oct 7, 2022 - Feb 2, 2025 | Technology decoupling; semiconductor export controls |
 
 ## Sources
 
